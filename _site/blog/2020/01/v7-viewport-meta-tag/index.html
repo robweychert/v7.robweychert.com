@@ -1,18 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
-<channel>
+<!DOCTYPE html>
+<html lang="en">
 
-	<title>RobWeychert.com V7</title>
-	<description>A work in progress</description>
-	<link>https://v7.robweychert.com</link>
-	<language>en</language>
-	<lastBuildDate>Wed, 04 Jan 2020 17:00:00 -0500</lastBuildDate>
-	<pubDate>Wed, 04 Jan 2020 17:00:00 -0500</pubDate>
-	
-	<item>
-		<title>The “viewport” meta tag</title>
-		<description><![CDATA[
-			<p>The first thing I did when setting up this new version of my site was to put together some minimum viable HTML templates. Here’s the blog post template:</p>
+<head>
+	<meta charset="utf-8">
+	<title>The “viewport” meta tag | RobWeychert.com V7</title>
+	<meta name="description" content="Apparently it is still necessary!">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="alternate" type="application/rss+xml" title="RobWeychert.com V7" href="/index.rss">
+</head>
+
+<body>
+
+	<header>
+		<h1><a href="/">RobWeychert.com V7</a></h1>
+		<nav>
+			<ul>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="/index.rss">RSS</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<aside>
+		I’m redesigning my site in public from the ground up, so if it looks undercooked, that’s why! Check out the <a href="/blog/">blog</a> to follow the process step by step, or visit the more polished <a href="https://v6.robweychert.com/">current version</a> of the site.
+	</aside>
+
+	<main>
+		<header>
+			<h2>The “viewport” meta tag</h2>
+			<p>Apparently it is still necessary!</p>
+			<time datetime="2020-01-04">2020 Jan 4</time>
+		</header>
+
+		<p>The first thing I did when setting up this new version of my site was to put together some minimum viable HTML templates. Here’s the blog post template:</p>
 
 		<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -85,33 +105,27 @@
 		<figcaption>No more shrinkage!</figcaption>
 	</figure>
 
-		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/01/v7-viewport-meta-tag/</link>
-		<guid>https://v7.robweychert.com/blog/2020/01/v7-viewport-meta-tag/</guid>
-		<pubDate>Wed, 04 Jan 2020 17:00:00 -0500</pubDate>
-	</item>
-	
-	<item>
-		<title>Introduction</title>
-		<description><![CDATA[
-			<p>Welcome to RobWeychert.com V7! There are a number of new things I want to try with my site, from structure to aesthetics to code, and so it’s time to begin a fresh redesign. Inspired by my friends <a href="https://2020.destroytoday.com/">Jonnie</a> and <a href="https://redesign.frankchimero.com/">Frank</a>, I’ve decided to do it in public from the ground up. I’m starting with bare-bones HTML and as the design process unfolds, each step will be reflected on the site in real time and documented with a succinct blog post. I’m hoping to post at least once a week, but that will probably fluctuate.</p>
+	</main>
 
-		<p>Here are some of the core ideas driving the redesign, which I’ll flesh out further in subsequent posts:</p>
-
+	<nav aria-label="Secondary">
+		<h2>Most recent blog posts</h2>
 		<ul>
-			<li><strong>Timeline:</strong> The blog on the current version of my site, V6, <a href="https://v6.robweychert.com/blog/">collects</a> most of what I’ve written for public consumption since 2001 across nearly 40 different sources. I’d like to expand that to include even more sources and content types, collecting virtually everything I’ve shared online in one sprawling, sortable/filterable timeline.</li>
-			<li><strong>Projects:</strong> I’ve made a lot of cool things personally and professionally over the past few years, announced their launches, and written about why and how they were made, but I still need an easily browsable place to collect and share that work.</li>
-			<li><strong>Overprint:</strong> The basis of the aesthetic I want to explore.</li>
-			<li><strong>Tools and tech:</strong> My approach to layout and style is evolving with the help of expanding browser support for CSS specs like Flexbox, Grid, and Custom Properties. I’m also considering moving away from Jekyll to another static site generator as well as updating my deployment method from FTP sync to something more modern.</li>
+			<li>
+				<a href="/blog/2020/01/v7-viewport-meta-tag/">
+					<h3>The “viewport” meta tag</h3>
+					<p>Apparently it is still necessary!</p>
+					<time datetime="2020-01-04">2020 Jan 4</time>
+				</a>
+			</li>
+			<li>
+				<a href="/blog/2020/01/v7-introduction/">
+					<h3>Introduction</h3>
+					<p>Redesigning my site in public</p>
+					<time datetime="2020-01-01">2020 Jan 1</time>
+				</a>
+			</li>
 		</ul>
+	</nav>
 
-		<p>More to come. Stay tuned!</p>
-
-		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/01/v7-introduction/</link>
-		<guid>https://v7.robweychert.com/blog/2020/01/v7-introduction/</guid>
-		<pubDate>Wed, 01 Jan 2020 15:00:00 -0500</pubDate>
-	</item>
-	
-</channel>
-</rss>
+</body>
+</html>
