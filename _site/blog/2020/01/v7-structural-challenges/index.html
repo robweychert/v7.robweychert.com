@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Structural challenges | RobWeychert.com V7</title>
+	<meta name="description" content="The ambitous scope of the timeline section">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="alternate" type="application/rss+xml" title="RobWeychert.com V7" href="/index.rss">
+	<link rel="stylesheet" href="/assets/css/main.css?20200108">
+</head>
+
+<body>
+
+	<header>
+		<h1><a href="/">RobWeychert.com V7</a></h1>
+		<nav>
+			<ul>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="/index.rss">RSS</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<aside>
+		I’m redesigning my site in public from the ground up, so if it looks undercooked, that’s why! Check out the <a href="/blog/">blog</a> to follow the process step by step, or visit the more polished <a href="https://v6.robweychert.com/">current version</a> of the site.
+	</aside>
+
+	<main>
+		<header>
+			<h2>Structural challenges</h2>
+			<p>The ambitous scope of the timeline section</p>
+			<time datetime="2020-01-14">2020 Jan 14</time>
+		</header>
+
+		<p>Most of this redesign’s structural challenges pertain to the timeline section, <a href="https://v7.robweychert.com/blog/2020/01/v7-introduction/">previously described thusly</a>:</p>
+
+		<blockquote>
+			<ul>
+				<li><strong>Timeline:</strong> The blog on the current version of my site, V6, <a href="https://v6.robweychert.com/blog/">collects</a> most of what I’ve written for public consumption since 2001 across nearly 40 different sources. I’d like to expand that to include even more sources and content types, collecting virtually everything I’ve shared online in one sprawling, sortable/filterable timeline.</li>
+			</ul>
+		</blockquote>
+
+		<p>Since the projects section is a <a href="https://v7.robweychert.com/blog/2020/01/v7-content-priorities/">higher priority</a> and the new parts of the timeline may not even be included in the site’s initial launch, it’s tempting to just put the timeline on the back burner. But here’s the thing: the timeline’s structural challenges will inevitably introduce technical challenges, which will have a big influence on what tools I use to build the site. I want to pick the right tools the first time, and I’ll give myself a better chance of doing that by working out the specifics of the timeline concept now and trying to wrangle it into a good user experience that’s technically feasible.</p>
+
+		<p>However, I’m only willing to go to so much trouble to make the timeline a reality, so if it turns out that what I have in mind is too architecturally convoluted in terms of UX and/or execution, I’ll scale the concept back until I find the right compromise. But let’s start by thinking big.</p>
+
+		<p>My V6 blog currently contains 544 posts from 39 sources. That 544 number is a bit misleading, because a number of those posts are digests of many smaller posts. For example, I used to publish a haiku every weekday, and rather than make each haiku an individual post, I collected them in <a href="https://v6.robweychert.com/blog/topic/daily-haiku/">monthly digests</a>. Similarly, film reviews I’ve written on Letterboxd that are fewer than 100 words are collected in annual “<a href="https://v6.robweychert.com/blog/2019/12/letterboxd-loose-ends/">loose ends</a>” posts. I did this mainly for two reasons:</p>
+
+		<ol>
+			<li>I wasn’t crazy about the idea of an entire webpage devoted to just a few words.</li>
+			<li>It’s a static site made with Jekyll, which means more posts make for longer build times. (The site currently takes about 40 seconds to build, due to a variety of factors.)</li>
+		</ol>
+
+		<p>The former doesn’t bother me so much anymore, but it does introduce design challenges. The latter is emblematic of the technical challenges that may lie ahead, especially considering that I’m trying to add a <em>lot</em> more content. Here are the biggest troublemakers:</p>
+
+		<ul>
+			<li><a href="https://twitter.com/robweychert">Tweets</a> (more than 8,300)</li>
+			<li><a href="https://letterboxd.com/robweychert/films/diary/">Letterboxd film diary entries</a> (more than 1,200)</li>
+			<li><a href="https://www.flickr.com/photos/robweychert/">Flickr photos</a> (more than 1,200)</li>
+			<li><a href="https://tinnitus.robweychert.com/">Tinnitus Tracker live music diary entries</a> (more than 400)</li>
+		</ul>
+
+		<p>Even if most of the content to be added is bite-sized, accounting for each of those bites is a big task: the number of individual posts on the site will grow more than 20 times. Compounding the technical complexity introduced by that sheer volume are issues of taxonomy and UI. Some of the many open questions:</p>
+
+		<ul>
+			<li>How to handle the information architecture and URL structure? I kind of like the idea of keeping everything under /blog/, since this is a log of things I’ve done on the web, but “blog” has more specific connotations now. Maybe the aggregate of posts can be browsed under /timeline/ and individual posts can be categorized à la /blog/, /notes/, /images/, etc?</li>
+			<li>How to handle tweet replies and threads, especially ones that occur over extended time periods? Is there a good way to make a tweet an individual post but still acknowledge its context among other tweets, many of which are from other people?</li>
+			<li>Given the issue of build times, can this still be a static site? I really like being able to build my site from a local directory of text files, without relying on server-side software that abstracts the content away into a database and requires remote maintenance. But is that still a viable option for a site this big? If I need to switch to another kind of CMS, how much of a lift will data migration be?</li>
+			<li>For data sources that I’m still updating regularly, like Twitter and Letterboxd, can/should I syndicate them out from my site, presumably with the help of some <a href="https://indieweb.org/">IndieWeb</a> technology? Or download my data from those services periodically and backfill? Will I be able to integrate multiple collections of downloaded JSON data with my existing blog posts?</li>
+			<li>How much metadata should I publish? On Letterboxd in particular, I have a fairly rich tagging system. Can/should I integrate that into my site? What relationship should it have with my site’s existing tag/topic system? Should incoming data without tags (like Twitter) somehow be retroactively tagged?</li>
+			<li><strong>What the hell am I getting myself into??</strong></li>
+		</ul>
+
+		<p>Next up: sketches and research!</p>
+
+	</main>
+
+	<nav aria-label="Secondary">
+		<h2>Most recent blog posts</h2>
+		<ul>
+			<li>
+				<a href="/blog/2020/01/v7-structural-challenges/">
+					<h3>Structural challenges</h3>
+					<p>The ambitous scope of the timeline section</p>
+					<time datetime="2020-01-14">2020 Jan 14</time>
+				</a>
+			</li>
+			<li>
+				<a href="/blog/2020/01/v7-content-priorities/">
+					<h3>Content priorities</h3>
+					<p>Making my projects more visible</p>
+					<time datetime="2020-01-08">2020 Jan 8</time>
+				</a>
+			</li>
+			<li>
+				<a href="/blog/2020/01/v7-viewport-meta-tag/">
+					<h3>The “viewport” meta tag</h3>
+					<p>Apparently it is still necessary!</p>
+					<time datetime="2020-01-04">2020 Jan 4</time>
+				</a>
+			</li>
+			<li>
+				<a href="/blog/2020/01/v7-introduction/">
+					<h3>Introduction</h3>
+					<p>Redesigning my site in public</p>
+					<time datetime="2020-01-01">2020 Jan 1</time>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+</body>
+</html>
