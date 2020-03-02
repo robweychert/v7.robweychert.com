@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>The timeline is taking shape | RobWeychert.com V7</title>
+	<meta name="description" content="Description TK">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="alternate" type="application/rss+xml" title="RobWeychert.com V7" href="/index.rss">
+	<link rel="stylesheet" href="/assets/css/main.css?20200209">
+</head>
+
+<body>
+
+	<header>
+		<h1><a href="/">RobWeychert.com V7</a></h1>
+		<nav>
+			<ul>
+				<li><a href="/blog/">Blog</a></li>
+				<li><a href="/index.rss">RSS</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<aside>
+		I’m redesigning my site in public from the ground up, so if it looks undercooked, that’s why! Check out the <a href="/blog/">blog</a> to follow the process step by step, or visit the more polished <a href="https://v6.robweychert.com/">current version</a> of the site.
+	</aside>
+
+	<main>
+		<header>
+			<h2>The timeline is taking shape</h2>
+			<p>Description TK</p>
+			<time datetime="2020-03-02">2020 Mar 02</time>
+		</header>
+
+		<p>Though it’s mostly taken place in scattered, stolen moments, I’ve made a lot of progress on the UX of the timeline section, much of which was still a disconcerting mystery not so long ago.</p>
+
+		<figure>
+			<figcaption>Some notes and sketches working through the timeline’s UX and IA problems</figcaption>
+		</figure>
+
+		<p>With the help of the data categories and content inventory I established in the <a href="https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/">previous post</a>, I’ve settled on a binary timeline concept: each post is either small or large. Small posts consist of fewer than 100 words and/or fewer than five images/videos. They’ll be represented on the timeline in their entirety. Large posts consist of 100 or more words and/or more than four images/videos. They’ll be represented on the timeline in truncated form. (I know <a href="https://ambientimpact.com/web/snippets/when-text-truncation-fails">truncation is not a content strategy</a>, but I’m giving it a shot anyway.) As timeline nodes, small and large posts alike will be constructed according to their needs from a shared library of elements.</p>
+
+		<ul>
+			<li><strong>Date/time:</strong> The only element every timeline node includes.</li>
+			<li><strong>Series indicator:</strong> Denotes that the post is directly related to at least one other post, and links to a timeline of that series. For now, the form it takes in the wireframes is “• • •”.</li>
+			<li><strong>Source:</strong> Where the post was originally published, probably represented by a favicon.</li>
+			<li><strong>Title</strong></li>
+			<li><strong>Description</strong></li>
+			<li><strong>Location:</strong> Only for posts for which location is relevant (e.g. events). Available data is a mixed bag, but candidates include Flickr, Instagram, Letterboxd, Tinnitus Tracker, Twitter.</li>
+			<li><strong>Short text:</strong> Fewer than 100 words.</li>
+			<li><strong>Long text:</strong> 100 or more words, truncated with a link to the full post.</li>
+			<li><strong>Image/video carousel:</strong> For fewer than five images/videos.</li>
+			<li><strong>Image/video cluster:</strong> For more than four images/videos, with a link to the full post.</li>
+		</ul>
+
+		<figure>
+			<figcaption>A Venn diagram of the elements relevant to small and large nodes</figcaption>
+		</figure>
+
+		<p>I made some wireframes of small and large timeline nodes with the maximum amount of content each could have. (I made the wireframes in Sketch, which, in addition to Figma, I’m finally coming around to after years of avoiding them.)</p>
+
+		<figure>
+			[FIGURE: Small timeline node]
+		</figure>
+
+		<figure>
+			[FIGURE: Large timeline node]
+		</figure>
+
+		<p>And here is a wireframe with actual content from January 2020 that helped me get a sense of how the timeline nodes would work in aggregate:</p>
+
+		<figure>
+			<figcaption>See the full wireframe</figcaption>
+		</figure>
+
+		<p>When I started, I didn’t think January was an especially active month for me (and compared to some people, it wasn’t), but its timeline’s 45 nodes from seven sources proved me wrong. This was a good excuse to start thinking about how filters could work, a concept which quickly evolved from sketch…</p>
+
+		<figure>[FIGURE: filter sketch]</figure>
+
+		<p>…to wireframe…</p>
+
+		<figure>[FIGURE: filter wireframe]</figure>
+
+		<p>…to getting way ahead of myself and spending an entire weekend building a functional prototype:</p>
+
+		<figure>[EMBED: filter prototype]</figure>
+
+		<p>I’ll go into more detail on the prototype and what I learned from it later.</p>
+
+		<p>A few other things this process helped clear up, at least for now:</p>
+
+		<ul>
+			<li>I’m not going to get precious about taxonomy. As far as I’m concerned, this aggregated content is a log of my activity on the web, which makes it my weblog. So /blog/ is where it will all live.</li>
+			<li>There will be three RSS feeds: one for small posts, one for large posts, and one for everything.</li>
+			<li>Duplicate content, such as an image that was posted to both Flickr and Twitter, or a Tinnitus Tracker post whose primary content is an Instagram video, will only appear in the timeline once, from its initial source.</li>
+			<li>Twitter replies (other than replies to myself for the sake of threading) will be omitted. I don’t think their inclusion would be without value, but in general, my site’s content should probably have an intended audience larger than one person.</li>
+		</ul>
+
+		<p>The next step will be some light user testing to see if my wireframes’ and prototype’s assumptions are validated.</p>
+
+	</main>
+
+	<hr>
+
+	<nav aria-label="Secondary">
+		<ul>
+			<li>
+				<a href="/blog/2020/02/v7-timeline-section-inventory/">
+					Previous post:<br>
+					<strong>Timeline section inventory</strong>
+				</a>
+			</li>
+			<li>
+				Next post:<br>
+				This is the most recent post
+			</li>
+		</ul>
+	</nav>
+
+</body>
+</html>
