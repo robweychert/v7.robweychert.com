@@ -6,8 +6,100 @@
 	<description>A work in progress</description>
 	<link>https://v7.robweychert.com</link>
 	<language>en</language>
-	<lastBuildDate>Sun, 09 Feb 2020 11:27:00 -0500</lastBuildDate>
-	<pubDate>Sun, 09 Feb 2020 11:27:00 -0500</pubDate>
+	<lastBuildDate>Tue, 03 Mar 2020 08:10:00 -0500</lastBuildDate>
+	<pubDate>Tue, 03 Mar 2020 08:10:00 -0500</pubDate>
+	
+	<item>
+		<title>The timeline is taking shape</title>
+		<description><![CDATA[
+			<p>Though it’s mostly taken place in scattered, stolen moments, I’ve made a lot of progress on the UX of the timeline section, much of which was still a disconcerting mystery not so long ago.</p>
+
+		<figure>
+			<img src="/assets/images/2020-03-03-sketchbook-ux.png">
+			<figcaption>Some notes and sketches working through the timeline’s UX and IA problems</figcaption>
+		</figure>
+
+		<p>With the help of the data categories and content inventory I established in the <a href="https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/">previous post</a>, I’ve settled on a binary timeline concept: each post is either <em>small</em> or <em>large</em>. Small posts consist of up to 100 words and/or up to four images/videos. They’ll be represented on the timeline in their entirety. Large posts consist of 100 or more words and/or more than four images/videos. They’ll be represented on the timeline in truncated form. (I know <a href="https://ambientimpact.com/web/snippets/when-text-truncation-fails">truncation is not a content strategy</a>, but I’m giving it a shot anyway.) As timeline nodes, small and large posts alike will be constructed according to their needs from a shared library of elements.</p>
+
+		<ul>
+			<li><strong>Date/time:</strong> One of only two elements every timeline node includes (the other is Source).</li>
+			<li><strong>Series indicator:</strong> Denotes that the post is directly related to at least one other post. It links to a timeline of that series. For now, the quick and dirty form it takes in the wireframes is “• • •”.</li>
+			<li><strong>Source:</strong> Where the post was originally published, probably represented by a favicon.</li>
+			<li><strong>Title</strong></li>
+			<li><strong>Description</strong></li>
+			<li><strong>Location:</strong> Only for posts for which location is relevant (e.g. events). Available data is a mixed bag, but candidates include Flickr, Instagram, Letterboxd, Tinnitus Tracker, Twitter.</li>
+			<li><strong>Short text:</strong> Up to 100 words.</li>
+			<li><strong>Long text:</strong> 100 or more words, truncated, with a link to the full post.</li>
+			<li><strong>Image/video carousel:</strong> Up to four images/videos.</li>
+			<li><strong>Image/video cluster:</strong> More than four images/videos, with a link to the full post.</li>
+		</ul>
+
+		<figure>
+			<img src="/assets/images/2020-03-03-sketchbook-venn.png">
+			<figcaption>A Venn diagram of the elements relevant to small and large nodes</figcaption>
+		</figure>
+
+		<h3>Wireframes</h3>
+
+		<p>I made some wireframes of small and large timeline nodes with the maximum amount of content each could have. (I made the wireframes in Sketch, which, in addition to Figma, I’m finally coming around to after years of avoiding them.)</p>
+
+		<figure>
+			<img src="/assets/images/2020-03-03-wireframe-small-node.png">
+			<figcaption>Small timeline node</figcaption>
+		</figure>
+
+		<figure>
+			<img src="/assets/images/2020-03-03-wireframe-large-node.png">
+			<figcaption>Large timeline node</figcaption>
+		</figure>
+
+		<p>And here is an excerpt from a wireframe with actual content from January 2020 that helped me get a sense of how the timeline nodes would work in aggregate:</p>
+
+		<figure>
+			<img src="/assets/images/2020-03-03-wireframe-january-cropped.png">
+			<figcaption><a href="/assets/images/2020-03-03-wireframe-january-full.png">See the full wireframe</a></figcaption>
+		</figure>
+
+		<h3>Filters</h3>
+
+		<p>When I started, I didn’t think my January was a very active month, but its timeline has 45 nodes, which is certainly not nothing. This was a good excuse to start thinking about how filters could work, a concept which quickly evolved from sketch…</p>
+
+		<figure>
+			<img src="/assets/images/2020-03-03-sketchbook-filters.png">
+		</figure>
+
+		<p>…to wireframe…</p>
+
+		<figure>
+			<img src="/assets/images/2020-03-03-wireframe-filters.png">
+		</figure>
+
+		<p>…to getting way ahead of myself and spending an entire weekend building a functional prototype:</p>
+
+		<figure>
+			<a href="https://v7.robweychert.com/blog/2020/03/timeline-taking-shape">See the prototype</a>
+		</figure>
+
+		<p>I’ll go into more detail on the prototype and what I learned from it in a future post.</p>
+
+		<h3>Other developments and next steps</h3>
+
+		<p>A few other things this process helped clear up, at least for now:</p>
+
+		<ul>
+			<li>I’m not going to get precious about taxonomy. As far as I’m concerned, this aggregated content is a log of my activity on the web, which makes it my weblog. So /blog/ is where it will all live.</li>
+			<li>There will be three RSS feeds: one for small posts, one for large posts, and one for everything.</li>
+			<li>Duplicate content, such as an image that was posted to both Flickr and Twitter, or a Tinnitus Tracker post whose primary content is an Instagram video, will only appear in the timeline once, from its initial source.</li>
+			<li>Twitter replies (other than replies to myself for the sake of threading) will be omitted. I don’t think their inclusion would be without value, but in general, my site’s content should probably have an intended audience larger than one person.</li>
+		</ul>
+
+		<p>The next step will be some light user testing to see if my wireframes’ and prototype’s assumptions are validated. If you’d like to be a part of that process by trying out the filter prototype above and letting me know if it does or doesn’t work the way you expected, <a href="mailto:rob@robweychert.com?subject=Timeline filter prototype">please do</a>!</p>
+
+		]]></description>
+		<link>https://v7.robweychert.com/blog/2020/03/v7-timeline-taking-shape/</link>
+		<guid>https://v7.robweychert.com/blog/2020/03/v7-timeline-taking-shape/</guid>
+		<pubDate>Tue, 03 Mar 2020 08:10:00 -0500</pubDate>
+	</item>
 	
 	<item>
 		<title>Timeline section inventory</title>
