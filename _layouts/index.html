@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<main aria-label="Content">	
+	<nav aria-label="Secondary">
+		<h2>The story so far</h2>
+		<ol>{% for post in site.posts | reverse %}
+			<li>
+				<a href="{{ post.url }}">
+					<strong>{{ post.title }}</strong><br>
+					{{ post.description }}<br>
+					<time datetime="{{ post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%Y' }} {{ post.date | date: '%b' }} {{ post.date | date: '%e' }}</time>
+				</a>
+			</li>{% endfor %}
+		</ol>
+	</nav>
+</main>

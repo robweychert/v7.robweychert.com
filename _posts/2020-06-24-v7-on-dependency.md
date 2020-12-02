@@ -1,4 +1,5 @@
 ---
+layout: post
 canonical: https://v7.robweychert.com/blog/2020/06/v7-on-dependency/
 date: 2020-06-24 12:45:00-0400
 title: On dependency

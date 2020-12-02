@@ -1,4 +1,5 @@
 ---
+layout: post
 canonical: https://v7.robweychert.com/blog/2020/01/v7-introduction/
 date: 2020-01-01 15:00:00-0500
 title: Introduction

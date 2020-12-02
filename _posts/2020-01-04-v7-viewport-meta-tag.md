@@ -1,4 +1,5 @@
 ---
+layout: post
 canonical: https://v7.robweychert.com/blog/2020/01/v7-viewport-meta-tag/
 date: 2020-01-04 17:00:00-0500
 title: The “viewport” meta tag

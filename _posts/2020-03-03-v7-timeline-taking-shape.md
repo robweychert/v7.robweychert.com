@@ -1,4 +1,5 @@
 ---
+layout: post
 canonical: https://v7.robweychert.com/blog/2020/03/v7-timeline-taking-shape/
 date: 2020-02-09 11:27:00-0500
 title: Timeline section inventory

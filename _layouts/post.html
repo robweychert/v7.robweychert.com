@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<main aria-label="Content">
+	{{ page.content }}
+</main>
+
+<hr>
+
+<nav aria-label="Secondary">
+	<ul>
+		<li>{% if page.previous %}
+			<a href="{{ page.previous.url | absolute_url }}">
+				Previous post:<br>
+				<strong>{{ page.previous.title | escape }}</strong>
+			</a>{% else %}
+			Previous post:<br>
+			This is the first post
+		</li>
+		<li>{% if page.next %}
+			<a href="{{ page.next.url | absolute_url }}">
+				Next post:<br>
+				<strong>{{ page.next.title | escape }}</strong>
+			</a>{% else %}
+			Next post:<br>
+			This is the most recent post
+		</li>
+	</ul>
+</nav>

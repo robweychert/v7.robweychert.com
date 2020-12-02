@@ -1,4 +1,5 @@
 ---
+layout: post
 canonical: https://v7.robweychert.com/blog/2020/01/v7-content-priorities/
 date: 2020-01-08 08:50:00-0500
 title: Content priorities

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{% include head.html %}
+
+<body>
+
+{% include site-header.html %}
+
+{{ content }}
+
+{% if page.custom contains "js" %}<script src="/assets/js/{{ page.date | date: '%Y-%m-%d' }}-{{ page.slug }}.js?{{ site.time | date: '%Y%m%d%H%M' }}"></script>{% endif %}
+</body>
+
+</html>

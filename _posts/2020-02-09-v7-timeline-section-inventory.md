@@ -1,4 +1,5 @@
 ---
+layout: post
 canonical: https://v7.robweychert.com/blog/2020/01/v7-timeline-section-inventory/
 date: 2020-02-09 11:27:00-0500
 title: Timeline section inventory

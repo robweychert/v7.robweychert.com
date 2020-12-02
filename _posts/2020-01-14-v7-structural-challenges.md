@@ -1,4 +1,5 @@
 ---
+layout: post
 canonical: https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/
 date: 2020-01-14 09:50:00-0500
 title: Structural challenges

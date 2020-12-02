@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>{{ site.title }}</title>
+	<description>{{ site.description }}</description>
+	<link>{{ site.url }}</link>
+	<language>en</language>
+	<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+	{% for post in site.posts %}{% if forloop.first %}<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>{% endif %}{% endfor %}
+	{% for post in site.posts limit:10 %}
+	<item>
+		<title>{{ post.title %}</title>
+		<description><![CDATA[
+			{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
+			{% if post.spoilers == true %}<p><strong>Spoiler Alert!</strong></p>{% endif %}
+			{{ post.content }}
+			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: {{ post.title }}">Reply by email</a></p>
+		]]></description>
+		<link>{{ site.url }}{{ post.url }}</link>
+		<guid>{{ site.url }}{{ post.url }}</guid>
+		<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+	</item>
+	{% endfor %}
+</channel>
+</rss>
