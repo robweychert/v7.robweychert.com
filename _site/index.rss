@@ -16,7 +16,7 @@
 
 		<p>Early in the lockdown, when the future of the supply chain was uncertain and everyone was panic shopping, I imagined all the doomsday preppers out there must have been feeling pretty smug. While the rest of the world freaked out, I pictured them calmly swinging their bunker doors shut and gazing fetishistically at their stockpiles of food, fuel, and ammunition, secure in their self-sufficiency. But how self-sufficient are they really? Did they grow and can that food? Did they smelt the steel and fashion their firearms from it? Did they mix the gunpowder? Did they build the internal combustion engines that power their generators? Did they extract and refine the oil that powers those engines?</p>
 
-		<p>This coronavirus crisis has shone a light on one of the defining conflicts of American society: individualism versus collectivism. How much should we be willing to collectively sacrifice for the sake of relatively few individuals? Where do we fall on the spectrum between Ayn Rand and Karl Marx? Where do I end and we begin? When 20 million jobs evaporated in the space of a month, it wasn’t because the “free market” and “individual liberty,” two phrases that often appear in close proximity, are actually compatible. The enraged libertarians who flooded statehouses and demanded that the economy reopen were, on the one hand, insisting that they shouldn’t be affected by what they see as other people’s problems. On the other hand, ironically, they were expressing <em>a need to interact with other people</em>; people who can do things for them that they can’t or don’t want to do for themselves: cut their hair, serve them a cocktail, sell them a gun.</p>
+		<p>This coronavirus crisis has shone a light on one of the defining conflicts of American society: individualism versus collectivism. How much should we be willing to collectively sacrifice for the sake of relatively few individuals? Where do we fall on the spectrum between Ayn Rand and Karl Marx? Where do <em>I</em> end and <em>we</em> begin? When 20 million jobs evaporated in the space of a month, it wasn’t because the “free market” and “individual liberty,” two phrases that often appear in close proximity, are actually compatible. The enraged libertarians who flooded statehouses and demanded that the economy reopen were, on the one hand, insisting that they shouldn’t be affected by what they see as other people’s problems. On the other hand, ironically, they were expressing <em>a need to interact with other people</em>; people who can do things for them that they can’t or don’t want to do for themselves: cut their hair, serve them a cocktail, sell them a gun.</p>
 
 		<p>If everyone were truly self-sufficient, most of us would be too busy tending our crops and repairing our roofs to do much else. Advances in technology, medicine, art, sport, and so much more would be sacrificed for the sake of a lot of replicated effort with middling results. We’d be alive, but we’d hardly be living. Instead, we develop more focused skillsets and work together. I can make hammers and you can make nails; I’ll trade you some of mine for some of yours. By depending on each other, we can accomplish more and better things.</p>
 
@@ -32,13 +32,13 @@
 
 		<p><strong>Nevertheless, I’m very selective about how I depend on other people’s work in my personal projects. Here are the factors I consider when evaluating dependencies.</strong></p>
 
-		<h3>Complexity</h3>
+		<h3 id="complexity">Complexity</h3>
 
 		<p><em>How complex is it, who absorbs the cost of that complexity, and is that acceptable?</em></p>
 
 		<p>The more use cases something is meant to accommodate, the more complex it is, and therefore, the less efficient it is. In many cases, this isn’t a big deal. Adobe Illustrator can do a zillion things I don’t need, but for the stuff I do need from it, the outsize CPU and hard drive space it uses are a worthy sacrifice. However, I prefer not to assume that someone visiting my website is willing to make that same sacrifice. A 2K SVG icon I created with Illustrator shouldn’t require you to download all 1.39GB of Illustrator to view that icon. That would be <a href="https://daverupert.com/2020/06/tradeoffs-and-shifting-complexity/">passing too much complexity</a>—and therefore inefficiency—to the user, and I’m not okay with that. This is why I can’t abide frameworks like React and Bootstrap. They’re excessively complex, and the user shares the cost to an unacceptable degree.</p>
 
-		<h3>Comprehensibility</h3>
+		<h3 id="comprehensibility">Comprehensibility</h3>
 
 		<p><em>Do I understand how it works, and if not, does that matter?</em>
 
@@ -46,7 +46,7 @@
 
 		<p>Where I do get into trouble is with complicated tool chains: the “modern dev stack.” I get why they’re popular—compiling, optimizing, minifying, and deploying all in one keystroke sure can save you time. But even if, like Git and Sass, I understand well enough what each individual piece does, things get confusing quickly when they’re all bundled together. These tool chains are only as good as their weakest link, and when things start going wrong, I find myself in the weeds pretty quickly. The constant need for updates, Node version management, Bash versus Zsh, dependencies on dependencies on dependencies… No thanks. Maybe someday I’ll get onboard with that way of working, but for now, the extensibility isn’t worth the frustration of the incessant troubleshooting. I don’t understand well enough how it works (and believe me, I’ve tried), and that matters.</p>
 
-		<h3>Reliability</h3>
+		<h3 id="reliability">Reliability</h3>
 
 		<p><em>How consistently and for how long can I expect it to work?</em></p>
 
@@ -281,7 +281,7 @@
 				<tr>
 					<td><a href="https://robweychert.com">RobWeychert.com</a></td>
 					<td>yes</td>
-					<td>543</td>
+					<td>317</td>
 					<td>
 						<ul>
 							<li>metadata</li>
@@ -373,9 +373,9 @@
 					</td>
 				</tr>
 				<tr>
-					<td><a href="https://v6.robweychert.com/blog/#browse-by-source">29 more miscellaneous sources</a></td>
+					<td><a href="https://v6.robweychert.com/blog/#browse-by-source">31 more miscellaneous sources</a></td>
 					<td>mostly no</td>
-					<td>106</td>
+					<td>114</td>
 					<td>
 						<ul>
 							<li>title</li>
