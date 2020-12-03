@@ -1,0 +1,17 @@
+body {
+	margin: 0 auto;
+	max-width: 75ch;
+	padding: 1rem;
+}
+
+img,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+}

@@ -209,3 +209,4 @@ function addFilter() { // Build the timeline filter and add it to the page
 		}
 	}
 }
+addFilter();

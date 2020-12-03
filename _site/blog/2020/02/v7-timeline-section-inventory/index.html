@@ -7,7 +7,7 @@
 	<meta name="description" content="Untangling the content">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="alternate" type="application/rss+xml" title="RobWeychert.com V7" href="/index.rss">
-	<link rel="stylesheet" href="/assets/css/main.css?20200209">
+	<link rel="stylesheet" href="/assets/css/main.css?202012022325">
 </head>
 
 <body>
@@ -26,296 +26,298 @@
 		I’m redesigning my site in public from the ground up, so if it looks undercooked, that’s why! Check out the <a href="/blog/">blog</a> to follow the process step by step, or visit the more polished <a href="https://v6.robweychert.com/">current version</a> of the site.
 	</aside>
 
-	<main>
-		<header>
-			<h2>Timeline section inventory</h2>
-			<p>Untangling the content</p>
-			<time datetime="2020-02-09">2020 Feb 09</time>
-		</header>
+<main aria-label="Content">
+	<header>
+		<h2>Timeline section inventory</h2>
+		<p>Untangling the content</p>
+		<time datetime="2020-02-09">2020 Feb 09</time>
+	</header>
+	<p>Progress on the redesign has slowed, partly because I’ve been busy with other things, and partly because, frankly, the open questions about the timeline section enumerated in my <a href="https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/">previous post</a> are an intimidating mess, a perfect example of the early stages of the <a href="https://thedesignsquiggle.com/">Design Squiggle</a>.</p>
 
-		<p>Progress on the redesign has slowed, partly because I’ve been busy with other things, and partly because, frankly, the open questions about the timeline section enumerated in my <a href="https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/">previous post</a> are an intimidating mess, a perfect example of the early stages of the <a href="https://thedesignsquiggle.com/">Design Squiggle</a>.</p>
+<p><img src="/assets/images/2020-02-09-design-squiggle.svg" alt="" /></p>
 
-		<figure>
-			<img src="/assets/images/2020-02-09-design-squiggle.svg">
-			<figcaption><a href="https://thedesignsquiggle.com/">The Design Squiggle</a>, by Damien Newman</figcaption>
-		</figure>
+<!-- figcaption -->
+<p><a href="https://thedesignsquiggle.com/">The Design Squiggle</a>, by Damien Newman</p>
 
-		<p>In a fight or flight situation like this, here are the arguments for flight:</p>
+<p>In a fight or flight situation like this, here are the arguments for flight:</p>
 
-		<ul>
-			<li>“Uh, the timeline isn’t even your <a href="https://v7.robweychert.com/blog/2020/01/v7-content-priorities/">top priority</a> for the site, remember? What’s more important: working on exciting projects and making it easy for people to find them, or laboring endlessly over a tortured accounting of years of less significant output?”</li>
-			<li>“Isn’t this whole timeline thing just an exercise in narcissism anyway?”</li>
-		</ul>
+<ul>
+  <li>“Uh, the timeline isn’t even your <a href="https://v7.robweychert.com/blog/2020/01/v7-content-priorities/">top priority</a> for the site, remember? What’s more important: working on exciting projects and making it easy for people to find them, or laboring endlessly over a tortured accounting of years of less significant output?”</li>
+  <li>“Isn’t this whole timeline thing just an exercise in narcissism anyway?”</li>
+</ul>
 
-		<p>They’re fair points. I’ll need to be careful not to get so bogged down in the timeline’s minutia that it jeopardizes the timely rollout of the projects section, which is more important. It’s also worth considering whether the timeline is more of an <em>accumulation</em> than a <em>collection</em>. I think of something Yoko Ono <a href="https://twitter.com/yokoono/status/6801795928">said</a>:</p>
+<p>They’re fair points. I’ll need to be careful not to get so bogged down in the timeline’s minutia that it jeopardizes the timely rollout of the projects section, which is more important. It’s also worth considering whether the timeline is more of an <em>accumulation</em> than a <em>collection</em>. I think of something Yoko Ono <a href="https://twitter.com/yokoono/status/6801795928">said</a>:</p>
 
-		<blockquote>
-			<p>Unclog your mind. Unclog your room. Arrange your room in a way you wish your mind would be.</p>
-		</blockquote>
+<blockquote>
+  <p>Unclog your mind. Unclog your room. Arrange your room in a way you wish your mind would be.</p>
+</blockquote>
 
-		<p>In the physical world, I do periodic purges of inessential objects to keep things manageable and focused. However, I have a persistent belief that the timeline concept is more than the overwrought sum of its sprawling parts, something I’ve expressed <a href="https://v6.robweychert.com/blog/2017/10/ten-years-twitter/">before</a> with regard to Twitter:</p>
+<p>In the physical world, I do periodic purges of inessential objects to keep things manageable and focused. However, I have a persistent belief that the timeline concept is more than the overwrought sum of its sprawling parts, something I’ve expressed <a href="https://v6.robweychert.com/blog/2017/10/ten-years-twitter/">before</a> with regard to Twitter:</p>
 
-		<blockquote>
-			<p>I’m more interested in Twitter as an <a href="https://v6.robweychert.com/blog/2017/09/v6-the-archive/">archive</a>, as a collection of bite-sized dispatches from events in our lives that run the gamut from mundane to sublime, which can be recombined in various ways to tell a uniquely affecting story.</p>
-		</blockquote>
+<blockquote>
+  <p>I’m more interested in Twitter as an <a href="https://v6.robweychert.com/blog/2017/09/v6-the-archive/">archive</a>, as a collection of bite-sized dispatches from events in our lives that run the gamut from mundane to sublime, which can be recombined in various ways to tell a uniquely affecting story.</p>
+</blockquote>
 
-		<p>So for now I’ll choose fight over flight, and my first move is to take inventory of the timeline’s content sources and the various shapes they take. The only thing every timeline node has in common is a date. Otherwise, these are the categories I’ve settled on for the data in play:</p>
+<p>So for now I’ll choose fight over flight, and my first move is to take inventory of the timeline’s content sources and the various shapes they take. The only thing every timeline node has in common is a date. Otherwise, these are the categories I’ve settled on for the data in play:</p>
 
-		<ul>
-			<li>title</li>
-			<li>description</li>
-			<li>short text</li>
-			<li>long text</li>
-			<li>image</li>
-			<li>video</li>
-			<li>metadata (other than date)</li>
-			<li>rating</li>
-			<li>seriality (part of a series)</li>
-		</ul>
+<ul>
+  <li>title</li>
+  <li>description</li>
+  <li>short text</li>
+  <li>long text</li>
+  <li>image</li>
+  <li>video</li>
+  <li>metadata (other than date)</li>
+  <li>rating</li>
+  <li>seriality (part of a series)</li>
+</ul>
 
-		<p>Below are the content sources and how data categories map to them, in descending order of volume, as of February 9, 2020:</p>
+<p>Below are the content sources and how data categories map to them, in descending order of volume, as of February 9, 2020:</p>
 
-		<table>
-			<thead>
-				<tr>
-					<th>Content source</th>
-					<th>Active?</th>
-					<th>Entries</th>
-					<th>Always includes</th>
-					<th>Sometimes includes</th>
-					<th>Notes</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><a href="https://twitter.com/robweychert">Twitter</a></td>
-					<td>yes</td>
-					<td>8,372</td>
-					<td></td>
-					<td>
-						<ul>
-							<li>short text</li>
-							<li>image(s)</li>
-							<li>video</li>
-							<li>seriality</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Amount includes unknown number of retweets, which will be omitted</li>
-							<li>Some primary content is cross-posted from other timeline sources</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://letterboxd.com/robweychert/films/diary/">Letterboxd</a></td>
-					<td>yes</td>
-					<td>1,225</td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>metadata</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>short text</li>
-							<li>long text</li>
-							<li>rating</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Metadata includes location, format, and more, in the form of unclassified tags</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://www.flickr.com/photos/robweychert/">Flickr</a></td>
-					<td>no</td>
-					<td>1,188</td>
-					<td></td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>short text</li>
-							<li>long text</li>
-							<li>image</li>
-							<li>video</li>
-							<li>metadata</li>
-							<li>seriality</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Some primary content is cross-posted from other timeline sources</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://robweychert.com">RobWeychert.com</a></td>
-					<td>yes</td>
-					<td>317</td>
-					<td>
-						<ul>
-							<li>metadata</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>description</li>
-							<li>short text</li>
-							<li>long text</li>
-							<li>image(s)</li>
-							<li>video(s)</li>
-							<li>seriality</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Metadata includes topic tags</li>
-							<li>Some entries which V6 collects in digests (like <a href="https://v6.robweychert.com/blog/topic/daily-haiku/">Daily Haiku</a>) will be broken out into individual entries. Other entries (like <a href="https://v4.robweychert.com/consumption/">Consumption</a>) may have to remain digested because their original entry dates are lost.</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://tinnitus.robweychert.com">Tinnitus Tracker</a></td>
-					<td>yes</td>
-					<td>427</td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>metadata</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>short text</li>
-							<li>long text</li>
-							<li>image(s)</li>
-							<li>video(s)</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Metadata includes classified tags: genre(s), artist(s), venue, city, state</li>
-							<li>Some primary content is cross-posted from other timeline sources</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://instagram.com/therobweychert">Instagram</a></td>
-					<td>yes</td>
-					<td>184</td>
-					<td></td>
-					<td>
-						<ul>
-							<li>short text</li>
-							<li>image(s)</li>
-							<li>video(s)</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Some primary content is cross-posted from other timeline sources</li>
-							<li>My previous Instagram account (2010–2012) was deleted but may be able to be reconstructed from cross-posts</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://dribbble.com/robweychert">Dribbble</a></td>
-					<td>no</td>
-					<td>42</td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>image</li>
-							<li>metadata</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>short text</li>
-							<li>seriality</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Metadata includes various unclassified tags</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://v6.robweychert.com/blog/#browse-by-source">31 more miscellaneous sources</a></td>
-					<td>mostly no</td>
-					<td>114</td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>metadata</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>description</li>
-							<li>short text</li>
-							<li>long text</li>
-							<li>image(s)</li>
-							<li>video(s)</li>
-							<li>rating</li>
-							<li>seriality</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Metadata includes topic tags</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+<table>
+	<thead>
+		<tr>
+			<th>Content source</th>
+			<th>Active?</th>
+			<th>Entries</th>
+			<th>Always includes</th>
+			<th>Sometimes includes</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="https://twitter.com/robweychert">Twitter</a></td>
+			<td>yes</td>
+			<td>8,372</td>
+			<td></td>
+			<td>
+				<ul>
+					<li>short text</li>
+					<li>image(s)</li>
+					<li>video</li>
+					<li>seriality</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Amount includes unknown number of retweets, which will be omitted</li>
+					<li>Some primary content is cross-posted from other timeline sources</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://letterboxd.com/robweychert/films/diary/">Letterboxd</a></td>
+			<td>yes</td>
+			<td>1,225</td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>metadata</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>short text</li>
+					<li>long text</li>
+					<li>rating</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Metadata includes location, format, and more, in the form of unclassified tags</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.flickr.com/photos/robweychert/">Flickr</a></td>
+			<td>no</td>
+			<td>1,188</td>
+			<td></td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>short text</li>
+					<li>long text</li>
+					<li>image</li>
+					<li>video</li>
+					<li>metadata</li>
+					<li>seriality</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Some primary content is cross-posted from other timeline sources</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://robweychert.com">RobWeychert.com</a></td>
+			<td>yes</td>
+			<td>317</td>
+			<td>
+				<ul>
+					<li>metadata</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>description</li>
+					<li>short text</li>
+					<li>long text</li>
+					<li>image(s)</li>
+					<li>video(s)</li>
+					<li>seriality</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Metadata includes topic tags</li>
+					<li>Some entries which V6 collects in digests (like <a href="https://v6.robweychert.com/blog/topic/daily-haiku/">Daily Haiku</a>) will be broken out into individual entries. Other entries (like <a href="https://v4.robweychert.com/consumption/">Consumption</a>) may have to remain digested because their original entry dates are lost.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://tinnitus.robweychert.com">Tinnitus Tracker</a></td>
+			<td>yes</td>
+			<td>427</td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>metadata</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>short text</li>
+					<li>long text</li>
+					<li>image(s)</li>
+					<li>video(s)</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Metadata includes classified tags: genre(s), artist(s), venue, city, state</li>
+					<li>Some primary content is cross-posted from other timeline sources</li>
+				</ul>
+			</td>
+			</tr>
+		<tr>
+			<td><a href="https://instagram.com/therobweychert">Instagram</a></td>
+			<td>yes</td>
+			<td>184</td>
+			<td></td>
+			<td>
+				<ul>
+					<li>short text</li>
+					<li>image(s)</li>
+					<li>video(s)</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Some primary content is cross-posted from other timeline sources</li>
+					<li>My previous Instagram account (2010–2012) was deleted but may be able to be reconstructed from cross-posts</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://dribbble.com/robweychert">Dribbble</a></td>
+			<td>no</td>
+			<td>42</td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>image</li>
+					<li>metadata</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>short text</li>
+					<li>seriality</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Metadata includes various unclassified tags</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://v6.robweychert.com/blog/#browse-by-source">31 more miscellaneous sources</a></td>
+			<td>mostly no</td>
+			<td>114</td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>metadata</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>description</li>
+					<li>short text</li>
+					<li>long text</li>
+					<li>image(s)</li>
+					<li>video(s)</li>
+					<li>rating</li>
+					<li>seriality</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Metadata includes topic tags</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
-		<p>This inventory will hopefully help me work through the UX/UI implications of the timeline, which I’ll do next with some sketches and mockups.</p>
+<p>This inventory will hopefully help me work through the UX/UI implications of the timeline, which I’ll do next with some sketches and mockups.</p>
 
-		<h3>Other updates</h3>
+<h3 id="other-updates">Other updates</h3>
 
-		<p>This post prompted me to add a little CSS to keep image sizes in check, as well as some simple table borders, because most browsers’ default table styles are not very useful:</p>
+<p>This post prompted me to add a little CSS to keep image sizes in check, as well as some simple table borders, because most browsers’ default table styles are not very useful:</p>
 
-		<pre><code>img,
-svg {
-  display: block;
-  max-width: 100%;
-}
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">img</span><span class="o">,</span>
+<span class="nt">svg</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">max-width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
 
-table,
-th,
-td {
-  border: 1px solid black;
-}</code></pre>
+<span class="nt">table</span><span class="o">,</span>
+<span class="nt">th</span><span class="o">,</span>
+<span class="nt">td</span> <span class="p">{</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-		<p>I also replaced the reverse-chronological “Most recent blog posts” at the bottom of each post with previous/next navigation, and took a page out of <a href="https://frankchimero.com/blog/2019/redesign/">Frank Chimero’s book</a> by making the <a href="/blog/">blog landing page</a> a chronological table of contents.</p>
+<p>I also replaced the reverse-chronological “Most recent blog posts” at the bottom of each post with previous/next navigation, and took a page out of <a href="https://frankchimero.com/blog/2019/redesign/">Frank Chimero’s book</a> by making the <a href="https://frankchimero.com/blog/2019/redesign/">blog landing page</a> a chronological table of contents.</p>
 
-	</main>
+</main>
 
-	<hr>
+<hr>
 
-	<nav aria-label="Secondary">
-		<ul>
-			<li>
-				<a href="/blog/2020/01/v7-structural-challenges/">
-					Previous post:<br>
-					<strong>Structural challenges</strong>
-				</a>
-			</li>
-			<li>
-				<a href="/blog/2020/03/v7-timeline-taking-shape/">
-					Next post:<br>
-					<strong>The timeline is taking shape</strong>
-				</a>
-			</li>
-		</ul>
-	</nav>
+<nav aria-label="Secondary">
+	<ul>
+		<li>
+			<a href="http://localhost:4000/blog/2020/01/v7-structural-challenges/">
+				Previous post:<br>
+				<strong>Structural challenges</strong>
+			</a>
+		</li>
+		<li>
+			<a href="http://localhost:4000/blog/2020/03/v7-timeline-taking-shape/">
+				Next post:<br>
+				<strong>The timeline is taking shape</strong>
+			</a>
+		</li>
+	</ul>
+</nav>
+
 
 </body>
+
 </html>

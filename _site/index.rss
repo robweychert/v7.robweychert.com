@@ -1,622 +1,658 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-
 	<title>RobWeychert.com V7</title>
 	<description>A work in progress</description>
-	<link>https://v7.robweychert.com</link>
+	<link>http://localhost:4000</link>
 	<language>en</language>
-	<lastBuildDate>Tue, 24 Jun 2020 12:45:00 -0400</lastBuildDate>
-	<pubDate>Tue, 24 Jun 2020 12:45:00 -0400</pubDate>
+	<lastBuildDate>Wed, 02 Dec 2020 23:25:44 -0500</lastBuildDate>
+	<pubDate>Wed, 24 Jun 2020 12:45:00 -0400</pubDate>
 	
 	<item>
 		<title>On dependency</title>
 		<description><![CDATA[
-			<p>I might have expected quarantine life to be a boon to my site’s redesign process since most of my preferred social distractions were nullified. Instead, I’ve been using the time in isolation to make music videos, finalize a home purchase, move into said home, and try to find my place in our national reckoning on racism and public safety reform. But as I slowly shift some of my attention back to the redesign, I’ve been thinking about one aspect of it through the lens of the pandemic.<p>
+			<p><em>How I incorporate other people’s work into my own—and how I don’t</em></p>
+			
+			<p>I might have expected quarantine life to be a boon to my site’s redesign process since most of my preferred social distractions were nullified. Instead, I’ve been using the time in isolation to make music videos, finalize a home purchase, move into said home, and try to find my place in our national reckoning on racism and public safety reform. But as I slowly shift some of my attention back to the redesign, I’ve been thinking about one aspect of it through the lens of the pandemic.</p>
 
-		<p>Early in the lockdown, when the future of the supply chain was uncertain and everyone was panic shopping, I imagined all the doomsday preppers out there must have been feeling pretty smug. While the rest of the world freaked out, I pictured them calmly swinging their bunker doors shut and gazing fetishistically at their stockpiles of food, fuel, and ammunition, secure in their self-sufficiency. But how self-sufficient are they really? Did they grow and can that food? Did they smelt the steel and fashion their firearms from it? Did they mix the gunpowder? Did they build the internal combustion engines that power their generators? Did they extract and refine the oil that powers those engines?</p>
+<p>Early in the lockdown, when the future of the supply chain was uncertain and everyone was panic shopping, I imagined all the doomsday preppers out there must have been feeling pretty smug. While the rest of the world freaked out, I pictured them calmly swinging their bunker doors shut and gazing fetishistically at their stockpiles of food, fuel, and ammunition, secure in their self-sufficiency. But how self-sufficient are they really? Did they grow and can that food? Did they smelt the steel and fashion their firearms from it? Did they mix the gunpowder? Did they build the internal combustion engines that power their generators? Did they extract and refine the oil that powers those engines?</p>
 
-		<p>This coronavirus crisis has shone a light on one of the defining conflicts of American society: individualism versus collectivism. How much should we be willing to collectively sacrifice for the sake of relatively few individuals? Where do we fall on the spectrum between Ayn Rand and Karl Marx? Where do <em>I</em> end and <em>we</em> begin? When 20 million jobs evaporated in the space of a month, it wasn’t because the “free market” and “individual liberty,” two phrases that often appear in close proximity, are actually compatible. The enraged libertarians who flooded statehouses and demanded that the economy reopen were, on the one hand, insisting that they shouldn’t be affected by what they see as other people’s problems. On the other hand, ironically, they were expressing <em>a need to interact with other people</em>; people who can do things for them that they can’t or don’t want to do for themselves: cut their hair, serve them a cocktail, sell them a gun.</p>
+<p>This coronavirus crisis has shone a light on one of the defining conflicts of American society: individualism versus collectivism. How much should we be willing to collectively sacrifice for the sake of relatively few individuals? Where do we fall on the spectrum between Ayn Rand and Karl Marx? Where do <em>I</em> end and <em>we</em> begin? When 20 million jobs evaporated in the space of a month, it wasn’t because the “free market” and “individual liberty,” two phrases that often appear in close proximity, are actually compatible. The enraged libertarians who flooded statehouses and demanded that the economy reopen were, on the one hand, insisting that they shouldn’t be affected by what they see as other people’s problems. On the other hand, ironically, they were expressing <em>a need to interact with other people</em>; people who can do things for them that they can’t or don’t want to do for themselves: cut their hair, serve them a cocktail, sell them a gun.</p>
 
-		<p>If everyone were truly self-sufficient, most of us would be too busy tending our crops and repairing our roofs to do much else. Advances in technology, medicine, art, sport, and so much more would be sacrificed for the sake of a lot of replicated effort with middling results. We’d be alive, but we’d hardly be living. Instead, we develop more focused skillsets and work together. I can make hammers and you can make nails; I’ll trade you some of mine for some of yours. By depending on each other, we can accomplish more and better things.</p>
+<p>If everyone were truly self-sufficient, most of us would be too busy tending our crops and repairing our roofs to do much else. Advances in technology, medicine, art, sport, and so much more would be sacrificed for the sake of a lot of replicated effort with middling results. We’d be alive, but we’d hardly be living. Instead, we develop more focused skillsets and work together. I can make hammers and you can make nails; I’ll trade you some of mine for some of yours. By depending on each other, we can accomplish more and better things.</p>
 
-		<hr>
+<hr />
 
-		<p>Back in the world of web design, I sometimes kid myself that I operate with a degree of self-sufficiency. I’m formally trained in graphic design and I’ve spent decades honing skills in user experience design, HTML, and CSS. My work is generally more content-focused than app-focused, so my limited JavaScript skills aren’t often an impediment. If you want a simple informational website (which, in my opinion, tends to be the best kind), I’ve got you covered.</p>
+<p>Back in the world of web design, I sometimes kid myself that I operate with a degree of self-sufficiency. I’m formally trained in graphic design and I’ve spent decades honing skills in user experience design, HTML, and CSS. My work is generally more content-focused than app-focused, so my limited JavaScript skills aren’t often an impediment. If you want a simple informational website (which, in my opinion, tends to be the best kind), I’ve got you covered.</p>
 
-		<p>But I can’t host your site or even my own site. I didn’t build the CMS. Other people made the hardware and software I use to generate and optimize images. Other people made the fonts. Other people standardized the digital formats for those images and fonts. I didn’t write the HTML and CSS specifications, nor the browsers that interpret them, nor the operating systems that run the browsers. I didn’t solder the circuit boards. And so on.</p>
+<p>But I can’t host your site or even my own site. I didn’t build the CMS. Other people made the hardware and software I use to generate and optimize images. Other people made the fonts. Other people standardized the digital formats for those images and fonts. I didn’t write the HTML and CSS specifications, nor the browsers that interpret them, nor the operating systems that run the browsers. I didn’t solder the circuit boards. And so on.</p>
 
-		<p>I say all this in the hopes of making it painfully clear that I’m a big believer in the power of collaboration, the reduction of replicated effort, and the beauty of human interdependency.</p>
+<p>I say all this in the hopes of making it painfully clear that I’m a big believer in the power of collaboration, the reduction of replicated effort, and the beauty of human interdependency.</p>
 
-		<p>The open source community has produced countless wonderful examples of what collaboration and interdependency can achieve. My own work has benefitted greatly from it, and in recent years I’ve stepped up my efforts to contribute, making <a href="https://github.com/propublica/column-setter">tools</a> available and sharing detailed write-ups of how my projects are <a href="https://v6.robweychert.com/blog/2019/02/introducing-tinnitus-tracker/">conceived</a> and <a href="https://v6.robweychert.com/blog/2018/09/revisiting-incomplete-open-cubes/">created</a>.</p>
+<p>The open source community has produced countless wonderful examples of what collaboration and interdependency can achieve. My own work has benefitted greatly from it, and in recent years I’ve stepped up my efforts to contribute, making <a href="https://github.com/propublica/column-setter">tools</a> available and sharing detailed write-ups of how my projects are <a href="https://v6.robweychert.com/blog/2019/02/introducing-tinnitus-tracker/">conceived</a> and <a href="https://v6.robweychert.com/blog/2018/09/revisiting-incomplete-open-cubes/">created</a>.</p>
 
-		<p><strong>Nevertheless, I’m very selective about how I depend on other people’s work in my personal projects. Here are the factors I consider when evaluating dependencies.</strong></p>
+<p><strong>Nevertheless, I’m very selective about how I depend on other people’s work in my personal projects. Here are the factors I consider when evaluating dependencies.</strong></p>
 
-		<h3 id="complexity">Complexity</h3>
+<h3 id="complexity">Complexity</h3>
 
-		<p><em>How complex is it, who absorbs the cost of that complexity, and is that acceptable?</em></p>
+<p><em>How complex is it, who absorbs the cost of that complexity, and is that acceptable?</em></p>
 
-		<p>The more use cases something is meant to accommodate, the more complex it is, and therefore, the less efficient it is. In many cases, this isn’t a big deal. Adobe Illustrator can do a zillion things I don’t need, but for the stuff I do need from it, the outsize CPU and hard drive space it uses are a worthy sacrifice. However, I prefer not to assume that someone visiting my website is willing to make that same sacrifice. A 2K SVG icon I created with Illustrator shouldn’t require you to download all 1.39GB of Illustrator to view that icon. That would be <a href="https://daverupert.com/2020/06/tradeoffs-and-shifting-complexity/">passing too much complexity</a>—and therefore inefficiency—to the user, and I’m not okay with that. This is why I can’t abide frameworks like React and Bootstrap. They’re excessively complex, and the user shares the cost to an unacceptable degree.</p>
+<p>The more use cases something is meant to accommodate, the more complex it is, and therefore, the less efficient it is. In many cases, this isn’t a big deal. Adobe Illustrator can do a zillion things I don’t need, but for the stuff I do need from it, the outsize CPU and hard drive space it uses are a worthy sacrifice. However, I prefer not to assume that someone visiting my website is willing to make that same sacrifice. A 2K SVG icon I created with Illustrator shouldn’t require you to download all 1.39GB of Illustrator to view that icon. That would be <a href="https://daverupert.com/2020/06/tradeoffs-and-shifting-complexity/">passing too much complexity</a>—and therefore inefficiency—to the user, and I’m not okay with that. This is why I can’t abide frameworks like React and Bootstrap. They’re excessively complex, and the user shares the cost to an unacceptable degree.</p>
 
-		<h3 id="comprehensibility">Comprehensibility</h3>
+<h3 id="comprehensibility">Comprehensibility</h3>
 
-		<p><em>Do I understand how it works, and if not, does that matter?</em>
+<p><em>Do I understand how it works, and if not, does that matter?</em></p>
 
-		<p>I’m a designer who writes front-end code. I don’t wish to pretend that makes me a software developer. So I try to keep my command line interactions to a minimum: mostly just a handful of Git, Sass, and Jekyll commands. I don’t understand their inner workings, but I have a satisfactory mental model of what they do, I know what to expect from them, and I rarely get into trouble.</p>
+<p>I’m a designer who writes front-end code. I don’t wish to pretend that makes me a software engineer. So I try to keep my command line interactions to a minimum: mostly just a handful of Git, Sass, and Jekyll commands. I don’t understand their inner workings, but I have a satisfactory mental model of what they do, I know what to expect from them, and I rarely get into trouble.</p>
 
-		<p>Where I do get into trouble is with complicated tool chains: the “modern dev stack.” I get why they’re popular—compiling, optimizing, minifying, and deploying all in one keystroke sure can save you time. But even if, like Git and Sass, I understand well enough what each individual piece does, things get confusing quickly when they’re all bundled together. These tool chains are only as good as their weakest link, and when things start going wrong, I find myself in the weeds pretty quickly. The constant need for updates, Node version management, Bash versus Zsh, dependencies on dependencies on dependencies… No thanks. Maybe someday I’ll get onboard with that way of working, but for now, the extensibility isn’t worth the frustration of the incessant troubleshooting. I don’t understand well enough how it works (and believe me, I’ve tried), and that matters.</p>
+<p>Where I do get into trouble is with complicated tool chains: the “modern dev stack.” I get why they’re popular—compiling, optimizing, minifying, and deploying all in one keystroke sure can save you time. But even if, like Git and Sass, I understand well enough what each individual piece does, things get confusing quickly when they’re all bundled together. These tool chains are only as good as their weakest link, and when things start going wrong, I find myself in the weeds pretty quickly. The constant need for updates, Node version management, Bash versus Zsh, dependencies on dependencies on dependencies… No thanks. Maybe someday I’ll get onboard with that way of working, but for now, the extensibility isn’t worth the frustration of the incessant troubleshooting. I don’t understand well enough how it works (and believe me, I’ve tried), and that matters.</p>
 
-		<h3 id="reliability">Reliability</h3>
+<h3 id="reliability">Reliability</h3>
 
-		<p><em>How consistently and for how long can I expect it to work?</em></p>
+<p><em>How consistently and for how long can I expect it to work?</em></p>
 
-		<p>I try to build things to last, so I need the stuff they’re made of to be sturdy. Hopefully it goes without saying that I want well constructed code and assets, but a big part of the reliability factor is also making sure those things have a stable home. Central to my current site redesign is reclaiming my content from ephemeral and/or otherwise untrustworthy social media services. Why shouldn’t I want to own the design as much as I own the content? As much as possible, I prefer to buy rather than rent, and to keep everything under one roof, which keeps me away from things like remote CDNs like AWS and hosted web font services like Typekit. I want to have access to all the pieces of my site in perpetuity, and I want them to live at a domain I control.</p>
+<p>I try to build things to last, so I need the stuff they’re made of to be sturdy. Hopefully it goes without saying that I want well constructed code and assets, but a big part of the reliability factor is also making sure those things have a stable home. Central to my current site redesign is reclaiming my content from ephemeral and/or otherwise untrustworthy social media services. Why shouldn’t I want to own the design as much as I own the content? As much as possible, I prefer to buy rather than rent, and to keep everything under one roof, which keeps me away from things like remote CDNs like AWS and hosted web font services like Typekit. I want to have access to all the pieces of my site in perpetuity, and I want them to live at a domain I control.</p>
 
-		<hr>
+<hr />
 
-		<p>At the end of the day, I try to make sure every piece of what I put on the web is appropriate, necessary, and as simple as possible, which generally requires me to essentially handcraft the vast majority of it myself. My preferred approach isn’t a terribly efficient way of working. Starting with a simple boilerplate HTML file in lieu of “<code>npx create-react-app my-app</code>” has been somewhat derisively <a href="https://dev.to/richharris/in-defense-of-the-modern-web-2nia">described</a> as “old guard” and “artisanal.” And I suppose it is to some degree tantamount to swinging my bunker door shut and gazing fetishistically at my stockpile of food, fuel, and ammunition.</p>
+<p>At the end of the day, I try to make sure every piece of what I put on the web is appropriate, necessary, and as simple as possible, which generally requires me to essentially handcraft the vast majority of it myself. My preferred approach isn’t a terribly efficient way of working. Starting with a simple boilerplate HTML file in lieu of “<code class="language-plaintext highlighter-rouge">npx create-react-app my-app</code>” has been somewhat derisively <a href="https://dev.to/richharris/in-defense-of-the-modern-web-2nia">described</a> as “old guard” and “artisanal.” And I suppose it is to some degree tantamount to swinging my bunker door shut and gazing fetishistically at my stockpile of food, fuel, and ammunition.</p>
 
-		<p>But I have no illusions about being some kind of lone wolf. All the stuff I’m making “by hand”—the way it approaches form, function, and materials—has been informed by philosophies and techniques developed by an amorphous community that spans generations. This work proliferates through byzantine open source projects, yes, but it also proliferates through books, blog posts, and videos with titles like “<a href="https://css-tricks.com/custom-styling-form-inputs-with-modern-css-features/">Custom Styling Form Inputs With Modern CSS Features</a>.” When I’m making things, that’s how I prefer to depend on others and have them depend on me: by sharing strong, simple ideas as a collective, and recombining them in novel ways with rigorous specificity as individuals.</p>
+<p>But I have no illusions about being some kind of lone wolf. All the stuff I’m making “by hand”—the way it approaches form, function, and materials—has been informed by philosophies and techniques developed by an amorphous community that spans generations. This work proliferates through byzantine open source projects, yes, but it also proliferates through books, blog posts, and videos with titles like “<a href="https://css-tricks.com/custom-styling-form-inputs-with-modern-css-features/">Custom Styling Form Inputs With Modern CSS Features</a>.” When I’m making things, that’s how I prefer to depend on others and have them depend on me: by sharing strong, simple ideas as a collective, and recombining them in novel ways with rigorous specificity as individuals.</p>
 
+			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: On dependency">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/06/v7-on-dependency/</link>
-		<guid>https://v7.robweychert.com/blog/2020/06/v7-on-dependency/</guid>
+		<link>http://localhost:4000/blog/2020/06/v7-on-dependency/</link>
+		<guid>http://localhost:4000/blog/2020/06/v7-on-dependency/</guid>
 		<pubDate>Wed, 24 Jun 2020 12:45:00 -0400</pubDate>
 	</item>
 	
 	<item>
 		<title>The timeline is taking shape</title>
 		<description><![CDATA[
+			<p><em>Making progress with sketches, wireframes, and a prototype</em></p>
+			
 			<p>Though it’s mostly taken place in scattered, stolen moments, I’ve made a lot of progress on the UX of the timeline section, much of which was still a disconcerting mystery not so long ago.</p>
 
-		<figure>
-			<img src="/assets/images/2020-03-03-sketchbook-ux.png">
-			<figcaption>Some notes and sketches working through the timeline’s UX and IA problems</figcaption>
-		</figure>
+<p><img src="/assets/images/2020-03-03-sketchbook-ux.png" alt="" /></p>
 
-		<p>With the help of the data categories and content inventory I established in the <a href="https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/">previous post</a>, I’ve settled on a binary timeline concept: each post is either <em>small</em> or <em>large</em>. Small posts consist of up to 100 words and/or up to four images/videos. They’ll be represented on the timeline in their entirety. Large posts consist of 100 or more words and/or more than four images/videos. They’ll be represented on the timeline in truncated form. (I know <a href="https://ambientimpact.com/web/snippets/when-text-truncation-fails">truncation is not a content strategy</a>, but I’m giving it a shot anyway.) As timeline nodes, small and large posts alike will be constructed according to their needs from a shared library of elements.</p>
+<!-- figcaption -->
+<p>Some notes and sketches working through the timeline’s UX and IA problems</p>
 
-		<ul>
-			<li><strong>Date/time:</strong> One of only two elements every timeline node includes (the other is Source).</li>
-			<li><strong>Series indicator:</strong> Denotes that the post is directly related to at least one other post. It links to a timeline of that series. For now, the quick and dirty form it takes in the wireframes is “• • •”.</li>
-			<li><strong>Source:</strong> Where the post was originally published, probably represented by a favicon.</li>
-			<li><strong>Title</strong></li>
-			<li><strong>Description</strong></li>
-			<li><strong>Location:</strong> Only for posts for which location is relevant (e.g. events). Available data is a mixed bag, but candidates include Flickr, Instagram, Letterboxd, Tinnitus Tracker, Twitter.</li>
-			<li><strong>Short text:</strong> Up to 100 words.</li>
-			<li><strong>Long text:</strong> 100 or more words, truncated, with a link to the full post.</li>
-			<li><strong>Image/video carousel:</strong> Up to four images/videos.</li>
-			<li><strong>Image/video cluster:</strong> More than four images/videos, with a link to the full post.</li>
+<p>With the help of the data categories and content inventory I established in the <a href="https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/">previous post</a>, I’ve settled on a binary timeline concept: each post is either <em>small</em> or <em>large</em>. Small posts consist of up to 100 words and/or up to four images/videos. They’ll be represented on the timeline in their entirety. Large posts consist of 100 or more words and/or more than four images/videos. They’ll be represented on the timeline in truncated form. (I know <a href="https://ambientimpact.com/web/snippets/when-text-truncation-fails">truncation is not a content strategy</a>, but I’m giving it a shot anyway.) As timeline nodes, small and large posts alike will be constructed according to their needs from a shared library of elements.</p>
+
+<ul>
+  <li><strong>Date/time:</strong> One of only two elements every timeline node includes (the other is Source).</li>
+  <li><strong>Series indicator:</strong> Denotes that the post is directly related to at least one other post. It links to a timeline of that series. For now, the quick and dirty form it takes in the wireframes is “• • •”.</li>
+  <li><strong>Source:</strong> Where the post was originally published, probably represented by a favicon.</li>
+  <li><strong>Title</strong></li>
+  <li><strong>Description</strong></li>
+  <li><strong>Location:</strong> Only for posts for which location is relevant (e.g. events). Available data is a mixed bag, but candidates include Flickr, Instagram, Letterboxd, Tinnitus Tracker, Twitter.</li>
+  <li><strong>Short text:</strong> Up to 100 words.</li>
+  <li><strong>Long text:</strong> 100 or more words, truncated, with a link to the full post.</li>
+  <li><strong>Image/video carousel:</strong> Up to four images/videos.</li>
+  <li><strong>Image/video cluster:</strong> More than four images/videos, with a link to the full post.</li>
+</ul>
+
+<p><img src="/assets/images/2020-03-03-sketchbook-venn.png" alt="" /></p>
+
+<!-- figcaption -->
+<p>A Venn diagram of the elements relevant to small and large nodes</p>
+
+<h3 id="wireframes">Wireframes</h3>
+
+<p>I made some wireframes of small and large timeline nodes with the maximum amount of content each could have. (I made the wireframes in Sketch, which, in addition to Figma, I’m finally coming around to after years of avoiding them.)</p>
+
+<p><img src="/assets/images/2020-03-03-wireframe-small-node.png" alt="" /></p>
+
+<!-- figcaption -->
+<p>Small timeline node</p>
+
+<p><img src="/assets/images/2020-03-03-wireframe-large-node.png" alt="" /></p>
+
+<!-- figcaption -->
+<p>Large timeline node</p>
+
+<p>And here is an excerpt from a wireframe with actual content from January 2020 that helped me get a sense of how the timeline nodes would work in aggregate:</p>
+
+<p><img src="/assets/images/2020-03-03-wireframe-january-cropped.png" alt="" /></p>
+
+<!-- figcaption -->
+<p><a href="/assets/images/2020-03-03-wireframe-january-full.png">See the full wireframe</a></p>
+
+<h3 id="filters">Filters</h3>
+
+<p>When I started, I didn’t think my January was a very active month, but its timeline has 45 nodes, which is certainly not nothing. This was a good excuse to start thinking about how filters could work, a concept which quickly evolved from sketch…</p>
+
+<p><img src="/assets/images/2020-03-03-sketchbook-filters.png" alt="" /></p>
+
+<p>…to wireframe…</p>
+
+<p><img src="/assets/images/2020-03-03-wireframe-filters.png" alt="" /></p>
+
+<p>…to getting way ahead of myself and spending an entire weekend building a functional prototype. If you have JavaScript enabled, you can try it:</p>
+
+<figure>
+	<div id="timeline-wrap">
+		<ul id="timeline">
+			<li class="tl-node" data-content="Text" data-length="Short" data-source="Twitter">text, short, Twitter</li>
+			<li class="tl-node" data-content="Text" data-length="Short" data-source="Letterboxd">text, short, Letterboxd</li>
+			<li class="tl-node" data-content="Text" data-length="Short" data-source="Twitter">text, short, Twitter</li>
+			<li class="tl-node" data-content="Text" data-length="Short" data-source="RobWeychert.com">text, short, RobWeychert.com</li>
+			<li class="tl-node" data-content="Text" data-length="Long" data-source="Letterboxd">text, long, Letterboxd</li>
+			<li class="tl-node" data-content="Video" data-length="Short" data-source="Instagram">video, short, Instagram</li>
+			<li class="tl-node" data-content="Text" data-length="Short" data-source="Twitter">text, short, Twitter</li>
+			<li class="tl-node" data-content="Text" data-length="Long" data-source="RobWeychert.com">text, long, RobWeychert.com</li>
+			<li class="tl-node" data-content="Text" data-length="Short" data-source="Letterboxd">text, short, Letterboxd</li>
+			<li class="tl-node" data-content="Image" data-length="Short" data-source="Twitter">image, short, Twitter</li>
+			<li class="tl-node" data-content="Video" data-length="Short" data-source="Flickr">video, short, Flickr</li>
 		</ul>
+	</div>
+	<!-- <script>addFilter();</script> -->
+</figure>
 
-		<figure>
-			<img src="/assets/images/2020-03-03-sketchbook-venn.png">
-			<figcaption>A Venn diagram of the elements relevant to small and large nodes</figcaption>
-		</figure>
+<p>I’ll go into more detail on the prototype and what I learned from it in a future post.</p>
 
-		<h3>Wireframes</h3>
+<h3 id="other-developments-and-next-steps">Other developments and next steps</h3>
 
-		<p>I made some wireframes of small and large timeline nodes with the maximum amount of content each could have. (I made the wireframes in Sketch, which, in addition to Figma, I’m finally coming around to after years of avoiding them.)</p>
+<p>A few other things this process helped clear up, at least for now:</p>
 
-		<figure>
-			<img src="/assets/images/2020-03-03-wireframe-small-node.png">
-			<figcaption>Small timeline node</figcaption>
-		</figure>
+<ul>
+  <li>I’m not going to get precious about taxonomy. As far as I’m concerned, this aggregated content is a log of my activity on the web, which makes it my weblog. So /blog/ is where it will all live.</li>
+  <li>There will be three RSS feeds: one for small posts, one for large posts, and one for everything.</li>
+  <li>Duplicate content, such as an image that was posted to both Flickr and Twitter, or a Tinnitus Tracker post whose primary content is an Instagram video, will only appear in the timeline once, from its initial source.</li>
+  <li>Twitter replies (other than replies to myself for the sake of threading) will be omitted. I don’t think their inclusion would be without value, but in general, my site’s content should probably have an intended audience larger than one person.</li>
+</ul>
 
-		<figure>
-			<img src="/assets/images/2020-03-03-wireframe-large-node.png">
-			<figcaption>Large timeline node</figcaption>
-		</figure>
+<p>The next step will be some light user testing to see if my wireframes’ and prototype’s assumptions are validated. If you’d like to be a part of that process by trying out the filter prototype above and letting me know if it does or doesn’t work the way you expected, <a href="mailto:rob@robweychert.com?subject=Timeline filter prototype">please do</a>!</p>
 
-		<p>And here is an excerpt from a wireframe with actual content from January 2020 that helped me get a sense of how the timeline nodes would work in aggregate:</p>
-
-		<figure>
-			<img src="/assets/images/2020-03-03-wireframe-january-cropped.png">
-			<figcaption><a href="/assets/images/2020-03-03-wireframe-january-full.png">See the full wireframe</a></figcaption>
-		</figure>
-
-		<h3>Filters</h3>
-
-		<p>When I started, I didn’t think my January was a very active month, but its timeline has 45 nodes, which is certainly not nothing. This was a good excuse to start thinking about how filters could work, a concept which quickly evolved from sketch…</p>
-
-		<figure>
-			<img src="/assets/images/2020-03-03-sketchbook-filters.png">
-		</figure>
-
-		<p>…to wireframe…</p>
-
-		<figure>
-			<img src="/assets/images/2020-03-03-wireframe-filters.png">
-		</figure>
-
-		<p>…to getting way ahead of myself and spending an entire weekend building a functional prototype:</p>
-
-		<figure>
-			<a href="https://v7.robweychert.com/blog/2020/03/timeline-taking-shape">See the prototype</a>
-		</figure>
-
-		<p>I’ll go into more detail on the prototype and what I learned from it in a future post.</p>
-
-		<h3>Other developments and next steps</h3>
-
-		<p>A few other things this process helped clear up, at least for now:</p>
-
-		<ul>
-			<li>I’m not going to get precious about taxonomy. As far as I’m concerned, this aggregated content is a log of my activity on the web, which makes it my weblog. So /blog/ is where it will all live.</li>
-			<li>There will be three RSS feeds: one for small posts, one for large posts, and one for everything.</li>
-			<li>Duplicate content, such as an image that was posted to both Flickr and Twitter, or a Tinnitus Tracker post whose primary content is an Instagram video, will only appear in the timeline once, from its initial source.</li>
-			<li>Twitter replies (other than replies to myself for the sake of threading) will be omitted. I don’t think their inclusion would be without value, but in general, my site’s content should probably have an intended audience larger than one person.</li>
-		</ul>
-
-		<p>The next step will be some light user testing to see if my wireframes’ and prototype’s assumptions are validated. If you’d like to be a part of that process by trying out the filter prototype above and letting me know if it does or doesn’t work the way you expected, <a href="mailto:rob@robweychert.com?subject=Timeline filter prototype">please do</a>!</p>
-
+			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: The timeline is taking shape">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/03/v7-timeline-taking-shape/</link>
-		<guid>https://v7.robweychert.com/blog/2020/03/v7-timeline-taking-shape/</guid>
+		<link>http://localhost:4000/blog/2020/03/v7-timeline-taking-shape/</link>
+		<guid>http://localhost:4000/blog/2020/03/v7-timeline-taking-shape/</guid>
 		<pubDate>Tue, 03 Mar 2020 08:10:00 -0500</pubDate>
 	</item>
 	
 	<item>
 		<title>Timeline section inventory</title>
 		<description><![CDATA[
+			<p><em>Untangling the content</em></p>
+			
 			<p>Progress on the redesign has slowed, partly because I’ve been busy with other things, and partly because, frankly, the open questions about the timeline section enumerated in my <a href="https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/">previous post</a> are an intimidating mess, a perfect example of the early stages of the <a href="https://thedesignsquiggle.com/">Design Squiggle</a>.</p>
 
-		<figure>
-			<img src="/assets/images/2020-02-09-design-squiggle.svg">
-			<figcaption><a href="https://thedesignsquiggle.com/">The Design Squiggle</a>, by Damien Newman</figcaption>
-		</figure>
+<p><img src="/assets/images/2020-02-09-design-squiggle.svg" alt="" /></p>
 
-		<p>In a fight or flight situation like this, here are the arguments for flight:</p>
+<!-- figcaption -->
+<p><a href="https://thedesignsquiggle.com/">The Design Squiggle</a>, by Damien Newman</p>
 
-		<ul>
-			<li>“Uh, the timeline isn’t even your <a href="https://v7.robweychert.com/blog/2020/01/v7-content-priorities/">top priority</a> for the site, remember? What’s more important: working on exciting projects and making it easy for people to find them, or laboring endlessly over a tortured accounting of years of less significant output?”</li>
-			<li>“Isn’t this whole timeline thing just an exercise in narcissism anyway?”</li>
-		</ul>
+<p>In a fight or flight situation like this, here are the arguments for flight:</p>
 
-		<p>They’re fair points. I’ll need to be careful not to get so bogged down in the timeline’s minutia that it jeopardizes the timely rollout of the projects section, which is more important. It’s also worth considering whether the timeline is more of an <em>accumulation</em> than a <em>collection</em>. I think of something Yoko Ono <a href="https://twitter.com/yokoono/status/6801795928">said</a>:</p>
+<ul>
+  <li>“Uh, the timeline isn’t even your <a href="https://v7.robweychert.com/blog/2020/01/v7-content-priorities/">top priority</a> for the site, remember? What’s more important: working on exciting projects and making it easy for people to find them, or laboring endlessly over a tortured accounting of years of less significant output?”</li>
+  <li>“Isn’t this whole timeline thing just an exercise in narcissism anyway?”</li>
+</ul>
 
-		<blockquote>
-			<p>Unclog your mind. Unclog your room. Arrange your room in a way you wish your mind would be.</p>
-		</blockquote>
+<p>They’re fair points. I’ll need to be careful not to get so bogged down in the timeline’s minutia that it jeopardizes the timely rollout of the projects section, which is more important. It’s also worth considering whether the timeline is more of an <em>accumulation</em> than a <em>collection</em>. I think of something Yoko Ono <a href="https://twitter.com/yokoono/status/6801795928">said</a>:</p>
 
-		<p>In the physical world, I do periodic purges of inessential objects to keep things manageable and focused. However, I have a persistent belief that the timeline concept is more than the overwrought sum of its sprawling parts, something I’ve expressed <a href="https://v6.robweychert.com/blog/2017/10/ten-years-twitter/">before</a> with regard to Twitter:</p>
+<blockquote>
+  <p>Unclog your mind. Unclog your room. Arrange your room in a way you wish your mind would be.</p>
+</blockquote>
 
-		<blockquote>
-			<p>I’m more interested in Twitter as an <a href="https://v6.robweychert.com/blog/2017/09/v6-the-archive/">archive</a>, as a collection of bite-sized dispatches from events in our lives that run the gamut from mundane to sublime, which can be recombined in various ways to tell a uniquely affecting story.</p>
-		</blockquote>
+<p>In the physical world, I do periodic purges of inessential objects to keep things manageable and focused. However, I have a persistent belief that the timeline concept is more than the overwrought sum of its sprawling parts, something I’ve expressed <a href="https://v6.robweychert.com/blog/2017/10/ten-years-twitter/">before</a> with regard to Twitter:</p>
 
-		<p>So for now I’ll choose fight over flight, and my first move is to take inventory of the timeline’s content sources and the various shapes they take. The only thing every timeline node has in common is a date. Otherwise, these are the categories I’ve settled on for the data in play:</p>
+<blockquote>
+  <p>I’m more interested in Twitter as an <a href="https://v6.robweychert.com/blog/2017/09/v6-the-archive/">archive</a>, as a collection of bite-sized dispatches from events in our lives that run the gamut from mundane to sublime, which can be recombined in various ways to tell a uniquely affecting story.</p>
+</blockquote>
 
-		<ul>
-			<li>title</li>
-			<li>description</li>
-			<li>short text</li>
-			<li>long text</li>
-			<li>image</li>
-			<li>video</li>
-			<li>metadata (other than date)</li>
-			<li>rating</li>
-			<li>seriality (part of a series)</li>
-		</ul>
+<p>So for now I’ll choose fight over flight, and my first move is to take inventory of the timeline’s content sources and the various shapes they take. The only thing every timeline node has in common is a date. Otherwise, these are the categories I’ve settled on for the data in play:</p>
 
-		<p>Below are the content sources and how data categories map to them, in descending order of volume, as of February 9, 2020:</p>
+<ul>
+  <li>title</li>
+  <li>description</li>
+  <li>short text</li>
+  <li>long text</li>
+  <li>image</li>
+  <li>video</li>
+  <li>metadata (other than date)</li>
+  <li>rating</li>
+  <li>seriality (part of a series)</li>
+</ul>
 
-		<table>
-			<thead>
-				<tr>
-					<th>Content source</th>
-					<th>Active?</th>
-					<th>Entries</th>
-					<th>Always includes</th>
-					<th>Sometimes includes</th>
-					<th>Notes</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><a href="https://twitter.com/robweychert">Twitter</a></td>
-					<td>yes</td>
-					<td>8,372</td>
-					<td></td>
-					<td>
-						<ul>
-							<li>short text</li>
-							<li>image(s)</li>
-							<li>video</li>
-							<li>seriality</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Amount includes unknown number of retweets, which will be omitted</li>
-							<li>Some primary content is cross-posted from other timeline sources</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://letterboxd.com/robweychert">Letterboxd</a></td>
-					<td>yes</td>
-					<td>1,225</td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>metadata</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>short text</li>
-							<li>long text</li>
-							<li>rating</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Metadata includes location, format, and more, in the form of unclassified tags</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://www.flickr.com/photos/robweychert/">Flickr</a></td>
-					<td>no</td>
-					<td>1,188</td>
-					<td></td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>short text</li>
-							<li>long text</li>
-							<li>image</li>
-							<li>video</li>
-							<li>metadata</li>
-							<li>seriality</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Some primary content is cross-posted from other timeline sources</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://robweychert.com">RobWeychert.com</a></td>
-					<td>yes</td>
-					<td>317</td>
-					<td>
-						<ul>
-							<li>metadata</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>description</li>
-							<li>short text</li>
-							<li>long text</li>
-							<li>image(s)</li>
-							<li>video(s)</li>
-							<li>seriality</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Metadata includes topic tags</li>
-							<li>Some entries which V6 collects in digests (like <a href="https://v6.robweychert.com/blog/topic/daily-haiku/">Daily Haiku</a>) will be broken out into individual entries. Other entries (like <a href="https://v4.robweychert.com/consumption/">Consumption</a>) may have to remain digested because their original entry dates are lost.</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://tinnitus.robweychert.com">Tinnitus Tracker</a></td>
-					<td>yes</td>
-					<td>427</td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>metadata</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>short text</li>
-							<li>long text</li>
-							<li>image(s)</li>
-							<li>video(s)</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Metadata includes classified tags: genre(s), artist(s), venue, city, state</li>
-							<li>Some primary content is cross-posted from other timeline sources</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://instagram.com/therobweychert">Instagram</a></td>
-					<td>yes</td>
-					<td>184</td>
-					<td></td>
-					<td>
-						<ul>
-							<li>short text</li>
-							<li>image(s)</li>
-							<li>video(s)</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Some primary content is cross-posted from other timeline sources</li>
-							<li>My previous Instagram account (2010–2012) was deleted but may be able to be reconstructed from cross-posts</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://dribbble.com/robweychert">Dribbble</a></td>
-					<td>no</td>
-					<td>42</td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>image</li>
-							<li>metadata</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>short text</li>
-							<li>seriality</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Metadata includes various unclassified tags</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><a href="https://v6.robweychert.com/blog/#browse-by-source">31 more miscellaneous sources</a></td>
-					<td>mostly no</td>
-					<td>114</td>
-					<td>
-						<ul>
-							<li>title</li>
-							<li>metadata</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>description</li>
-							<li>short text</li>
-							<li>long text</li>
-							<li>image(s)</li>
-							<li>video(s)</li>
-							<li>rating</li>
-							<li>seriality</li>
-						</ul>
-					</td>
-					<td>
-						<ul>
-							<li>Metadata includes topic tags</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+<p>Below are the content sources and how data categories map to them, in descending order of volume, as of February 9, 2020:</p>
 
-		<p>This inventory will hopefully help me work through the UX/UI implications of the timeline, which I’ll do next with some sketches and mockups.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Content source</th>
+			<th>Active?</th>
+			<th>Entries</th>
+			<th>Always includes</th>
+			<th>Sometimes includes</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="https://twitter.com/robweychert">Twitter</a></td>
+			<td>yes</td>
+			<td>8,372</td>
+			<td></td>
+			<td>
+				<ul>
+					<li>short text</li>
+					<li>image(s)</li>
+					<li>video</li>
+					<li>seriality</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Amount includes unknown number of retweets, which will be omitted</li>
+					<li>Some primary content is cross-posted from other timeline sources</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://letterboxd.com/robweychert/films/diary/">Letterboxd</a></td>
+			<td>yes</td>
+			<td>1,225</td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>metadata</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>short text</li>
+					<li>long text</li>
+					<li>rating</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Metadata includes location, format, and more, in the form of unclassified tags</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.flickr.com/photos/robweychert/">Flickr</a></td>
+			<td>no</td>
+			<td>1,188</td>
+			<td></td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>short text</li>
+					<li>long text</li>
+					<li>image</li>
+					<li>video</li>
+					<li>metadata</li>
+					<li>seriality</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Some primary content is cross-posted from other timeline sources</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://robweychert.com">RobWeychert.com</a></td>
+			<td>yes</td>
+			<td>317</td>
+			<td>
+				<ul>
+					<li>metadata</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>description</li>
+					<li>short text</li>
+					<li>long text</li>
+					<li>image(s)</li>
+					<li>video(s)</li>
+					<li>seriality</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Metadata includes topic tags</li>
+					<li>Some entries which V6 collects in digests (like <a href="https://v6.robweychert.com/blog/topic/daily-haiku/">Daily Haiku</a>) will be broken out into individual entries. Other entries (like <a href="https://v4.robweychert.com/consumption/">Consumption</a>) may have to remain digested because their original entry dates are lost.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://tinnitus.robweychert.com">Tinnitus Tracker</a></td>
+			<td>yes</td>
+			<td>427</td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>metadata</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>short text</li>
+					<li>long text</li>
+					<li>image(s)</li>
+					<li>video(s)</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Metadata includes classified tags: genre(s), artist(s), venue, city, state</li>
+					<li>Some primary content is cross-posted from other timeline sources</li>
+				</ul>
+			</td>
+			</tr>
+		<tr>
+			<td><a href="https://instagram.com/therobweychert">Instagram</a></td>
+			<td>yes</td>
+			<td>184</td>
+			<td></td>
+			<td>
+				<ul>
+					<li>short text</li>
+					<li>image(s)</li>
+					<li>video(s)</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Some primary content is cross-posted from other timeline sources</li>
+					<li>My previous Instagram account (2010–2012) was deleted but may be able to be reconstructed from cross-posts</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://dribbble.com/robweychert">Dribbble</a></td>
+			<td>no</td>
+			<td>42</td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>image</li>
+					<li>metadata</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>short text</li>
+					<li>seriality</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Metadata includes various unclassified tags</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://v6.robweychert.com/blog/#browse-by-source">31 more miscellaneous sources</a></td>
+			<td>mostly no</td>
+			<td>114</td>
+			<td>
+				<ul>
+					<li>title</li>
+					<li>metadata</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>description</li>
+					<li>short text</li>
+					<li>long text</li>
+					<li>image(s)</li>
+					<li>video(s)</li>
+					<li>rating</li>
+					<li>seriality</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Metadata includes topic tags</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
-		<h3>Other updates</h3>
+<p>This inventory will hopefully help me work through the UX/UI implications of the timeline, which I’ll do next with some sketches and mockups.</p>
 
-		<p>This post prompted me to add a little CSS to keep image sizes in check, as well as some simple table borders, because most browsers’ default table styles are not very useful:</p>
+<h3 id="other-updates">Other updates</h3>
 
-		<pre><code>img,
-svg {
-  display: block;
-  max-width: 100%;
-}
+<p>This post prompted me to add a little CSS to keep image sizes in check, as well as some simple table borders, because most browsers’ default table styles are not very useful:</p>
 
-table,
-th,
-td {
-  border: 1px solid black;
-}</code></pre>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">img</span><span class="o">,</span>
+<span class="nt">svg</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">max-width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
 
-		<p>I also replaced the reverse-chronological “Most recent blog posts” at the bottom of each post with previous/next navigation, and took a page out of <a href="https://frankchimero.com/blog/2019/redesign/">Frank Chimero’s book</a> by making the <a href="/blog/">blog landing page</a> a chronological table of contents.</p>
+<span class="nt">table</span><span class="o">,</span>
+<span class="nt">th</span><span class="o">,</span>
+<span class="nt">td</span> <span class="p">{</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
+<p>I also replaced the reverse-chronological “Most recent blog posts” at the bottom of each post with previous/next navigation, and took a page out of <a href="https://frankchimero.com/blog/2019/redesign/">Frank Chimero’s book</a> by making the <a href="https://frankchimero.com/blog/2019/redesign/">blog landing page</a> a chronological table of contents.</p>
+
+			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Timeline section inventory">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/</link>
-		<guid>https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/</guid>
+		<link>http://localhost:4000/blog/2020/02/v7-timeline-section-inventory/</link>
+		<guid>http://localhost:4000/blog/2020/02/v7-timeline-section-inventory/</guid>
 		<pubDate>Sun, 09 Feb 2020 11:27:00 -0500</pubDate>
 	</item>
 	
 	<item>
 		<title>Structural challenges</title>
 		<description><![CDATA[
+			<p><em>The ambitous scope of the timeline section</em></p>
+			
 			<p>Most of this redesign’s structural challenges pertain to the timeline section, <a href="https://v7.robweychert.com/blog/2020/01/v7-introduction/">previously described thusly</a>:</p>
 
-		<blockquote>
-			<ul>
-				<li><strong>Timeline:</strong> The blog on the current version of my site, V6, <a href="https://v6.robweychert.com/blog/">collects</a> most of what I’ve written for public consumption since 2001 across nearly 40 different sources. I’d like to expand that to include even more sources and content types, collecting virtually everything I’ve shared online in one sprawling, sortable/filterable timeline.</li>
-			</ul>
-		</blockquote>
+<blockquote>
+  <ul>
+    <li><strong>Timeline:</strong> The blog on the current version of my site, V6, <a href="https://v6.robweychert.com/blog/">collects</a> most of what I’ve written for public consumption since 2001 across nearly 40 different sources. I’d like to expand that to include even more sources and content types, collecting virtually everything I’ve shared online in one sprawling, sortable/filterable timeline.</li>
+  </ul>
+</blockquote>
 
-		<p>Since the projects section is a <a href="https://v7.robweychert.com/blog/2020/01/v7-content-priorities/">higher priority</a> and the new parts of the timeline may not even be included in the site’s initial launch, it’s tempting to just put the timeline on the back burner. But here’s the thing: the timeline’s structural challenges will inevitably introduce technical challenges, which will have a big influence on what tools I use to build the site. I want to pick the right tools the first time, and I’ll give myself a better chance of doing that by working out the specifics of the timeline concept now and trying to wrangle it into a good user experience that’s technically feasible.</p>
+<p>Since the projects section is a <a href="https://v7.robweychert.com/blog/2020/01/v7-content-priorities/">higher priority</a> and the new parts of the timeline may not even be included in the site’s initial launch, it’s tempting to just put the timeline on the back burner. But here’s the thing: the timeline’s structural challenges will inevitably introduce technical challenges, which will have a big influence on what tools I use to build the site. I want to pick the right tools the first time, and I’ll give myself a better chance of doing that by working out the specifics of the timeline concept now and trying to wrangle it into a good user experience that’s technically feasible.</p>
 
-		<p>However, I’m only willing to go to so much trouble to make the timeline a reality, so if it turns out that what I have in mind is too architecturally convoluted in terms of UX and/or execution, I’ll scale the concept back until I find the right compromise. But let’s start by thinking big.</p>
+<p>However, I’m only willing to go to so much trouble to make the timeline a reality, so if it turns out that what I have in mind is too architecturally convoluted in terms of UX and/or execution, I’ll scale the concept back until I find the right compromise. But let’s start by thinking big.</p>
 
-		<p>My V6 blog currently contains 544 posts from 39 sources. That 544 number is a bit misleading, because a number of those posts are digests of many smaller posts. For example, I used to publish a haiku every weekday, and rather than make each haiku an individual post, I collected them in <a href="https://v6.robweychert.com/blog/topic/daily-haiku/">monthly digests</a>. Similarly, film reviews I’ve written on Letterboxd that are fewer than 100 words are collected in annual “<a href="https://v6.robweychert.com/blog/2019/12/letterboxd-loose-ends/">loose ends</a>” posts. I did this mainly for two reasons:</p>
+<p>My V6 blog currently contains 544 posts from 39 sources. That 544 number is a bit misleading, because a number of those posts are digests of many smaller posts. For example, I used to publish a haiku every weekday, and rather than make each haiku an individual post, I collected them in <a href="https://v6.robweychert.com/blog/topic/daily-haiku/">monthly digests</a>. Similarly, film reviews I’ve written on Letterboxd that are fewer than 100 words are collected in annual “<a href="https://v6.robweychert.com/blog/2019/12/letterboxd-loose-ends/">loose ends</a>” posts. I did this mainly for two reasons:</p>
 
-		<ol>
-			<li>I wasn’t crazy about the idea of an entire webpage devoted to just a few words.</li>
-			<li>It’s a static site made with Jekyll, which means more posts make for longer build times. (The site currently takes about 40 seconds to build, due to a variety of factors.)</li>
-		</ol>
+<ol>
+  <li>I wasn’t crazy about the idea of an entire webpage devoted to just a few words.</li>
+  <li>It’s a static site made with Jekyll, which means more posts make for longer build times. (The site currently takes about 40 seconds to build, due to a variety of factors.)</li>
+</ol>
 
-		<p>The former doesn’t bother me so much anymore, but it does introduce design challenges. The latter is emblematic of the technical challenges that may lie ahead, especially considering that I’m trying to add a <em>lot</em> more content. Here are the biggest troublemakers:</p>
+<p>The former doesn’t bother me so much anymore, but it does introduce design challenges. The latter is emblematic of the technical challenges that may lie ahead, especially considering that I’m trying to add a <em>lot</em> more content. Here are the biggest troublemakers:</p>
 
-		<ul>
-			<li><a href="https://twitter.com/robweychert">Tweets</a> (more than 8,300)</li>
-			<li><a href="https://letterboxd.com/robweychert/films/diary/">Letterboxd film diary entries</a> (more than 1,200)</li>
-			<li><a href="https://www.flickr.com/photos/robweychert/">Flickr photos</a> (more than 1,200)</li>
-			<li><a href="https://tinnitus.robweychert.com/">Tinnitus Tracker live music diary entries</a> (more than 400)</li>
-		</ul>
+<ul>
+  <li><a href="https://twitter.com/robweychert">Tweets</a> (more than 8,300)</li>
+  <li><a href="https://letterboxd.com/robweychert/films/diary/">Letterboxd film diary entries</a> (more than 1,200)</li>
+  <li><a href="https://www.flickr.com/photos/robweychert/">Flickr photos</a> (more than 1,200)</li>
+  <li><a href="https://tinnitus.robweychert.com/">Tinnitus Tracker live music diary entries</a> (more than 400)</li>
+</ul>
 
-		<p>Even if most of the content to be added is bite-sized, accounting for each of those bites is a big task: the number of individual posts on the site will grow more than 20 times. Compounding the technical complexity introduced by that sheer volume are issues of taxonomy and UI. Some of the many open questions:</p>
+<p>Even if most of the content to be added is bite-sized, accounting for each of those bites is a big task: the number of individual posts on the site will grow more than 20 times. Compounding the technical complexity introduced by that sheer volume are issues of taxonomy and UI. Some of the many open questions:</p>
 
-		<ul>
-			<li>How to handle the information architecture and URL structure? I kind of like the idea of keeping everything under /blog/, since this is a log of things I’ve done on the web, but “blog” has more specific connotations now. Maybe the aggregate of posts can be browsed under /timeline/ and individual posts can be categorized à la /blog/, /notes/, /images/, etc?</li>
-			<li>How to handle tweet replies and threads, especially ones that occur over extended time periods? Is there a good way to make a tweet an individual post but still acknowledge its context among other tweets, many of which are from other people?</li>
-			<li>Given the issue of build times, can this still be a static site? I really like being able to build my site from a local directory of text files, without relying on server-side software that abstracts the content away into a database and requires remote maintenance. But is that still a viable option for a site this big? If I need to switch to another kind of CMS, how much of a lift will data migration be?</li>
-			<li>For data sources that I’m still updating regularly, like Twitter and Letterboxd, can/should I syndicate them out from my site, presumably with the help of some <a href="https://indieweb.org/">IndieWeb</a> technology? Or download my data from those services periodically and backfill? Will I be able to integrate multiple collections of downloaded JSON data with my existing blog posts?</li>
-			<li>How much metadata should I publish? On Letterboxd in particular, I have a fairly rich tagging system. Can/should I integrate that into my site? What relationship should it have with my site’s existing tag/topic system? Should incoming data without tags (like Twitter) somehow be retroactively tagged?</li>
-			<li><strong>What the hell am I getting myself into??</strong></li>
-		</ul>
+<ul>
+  <li>How to handle the information architecture and URL structure? I kind of like the idea of keeping everything under /blog/, since this is a log of things I’ve done on the web, but “blog” has more specific connotations now. Maybe the aggregate of posts can be browsed under /timeline/ and individual posts can be categorized à la /blog/, /notes/, /images/, etc?</li>
+  <li>How to handle tweet replies and threads, especially ones that occur over extended time periods? Is there a good way to make a tweet an individual post but still acknowledge its context among other tweets, many of which are from other people?</li>
+  <li>Given the issue of build times, can this still be a static site? I really like being able to build my site from a local directory of text files, without relying on server-side software that abstracts the content away into a database and requires remote maintenance. But is that still a viable option for a site this big? If I need to switch to another kind of CMS, how much of a lift will data migration be?</li>
+  <li>For data sources that I’m still updating regularly, like Twitter and Letterboxd, can/should I syndicate them out from my site, presumably with the help of some <a href="https://indieweb.org/">IndieWeb</a> technology? Or download my data from those services periodically and backfill? Will I be able to integrate multiple collections of downloaded JSON data with my existing blog posts?</li>
+  <li>How much metadata should I publish? On Letterboxd in particular, I have a fairly rich tagging system. Can/should I integrate that into my site? What relationship should it have with my site’s existing tag/topic system? Should incoming data without tags (like Twitter) somehow be retroactively tagged?</li>
+  <li><strong>What the hell am I getting myself into??</strong></li>
+</ul>
 
-		<p>Next up: sketches and research!</p>
+<p>Next up: sketches and research!</p>
 
+			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Structural challenges">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/</link>
-		<guid>https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/</guid>
+		<link>http://localhost:4000/blog/2020/01/v7-structural-challenges/</link>
+		<guid>http://localhost:4000/blog/2020/01/v7-structural-challenges/</guid>
 		<pubDate>Tue, 14 Jan 2020 09:50:00 -0500</pubDate>
 	</item>
 	
 	<item>
 		<title>Content priorities</title>
 		<description><![CDATA[
+			<p><em>Making my projects more visible</em></p>
+			
 			<p>I added a tiny bit of CSS to aid readability by keeping line lengths in check on larger viewports:</p>
 
-		<pre><code>body {
-  margin: 0 auto;
-  max-width: 75ch;
-  padding: 1rem;
-}</code></pre>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">body</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">max-width</span><span class="p">:</span> <span class="m">75ch</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">1rem</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-		<p>When calling the CSS file from the page <code>head</code>, I include a query string based on today’s date, which I’ll update when the CSS is updated. This will let updates get past the browser’s cache.</p>
+<p>When calling the CSS file from the page <code class="language-plaintext highlighter-rouge">head</code>, I include a query string based on today’s date, which I’ll update when the CSS is updated. This will let updates get past the browser’s cache.</p>
 
-		<pre><code>&lt;link rel="stylesheet" href="/assets/css/main.css?20200108"&gt;</code></pre>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;link rel="stylesheet" href="/assets/css/main.css?20200108"&gt;
+</code></pre></div></div>
 
-		<p>Hopefully this small stylistic addition will keep things tidy enough until I properly begin the visual part of the design process. Before I can get to that, though, let’s talk content priorities. From my list of reasons for the V7 redesign in its <a href="https://v7.robweychert.com/blog/v7-introduction/">introductory post</a>:</p>
+<p>Hopefully this small stylistic addition will keep things tidy enough until I properly begin the visual part of the design process. Before I can get to that, though, let’s talk content priorities. From my list of reasons for the V7 redesign in its <a href="https://v7.robweychert.com/blog/v7-introduction/">introductory post</a>:</p>
 
-		<blockquote>
-			<ul>
-				<li><strong>Timeline:</strong> The blog on the current version of my site, V6, <a href="https://v6.robweychert.com/blog/">collects</a> most of what I’ve written for public consumption since 2001 across nearly 40 different sources. I’d like to expand that to include even more sources and content types, collecting virtually everything I’ve shared online in one sprawling, sortable/filterable timeline.</li>
-				<li><strong>Projects:</strong> I’ve made a lot of cool things personally and professionally over the past few years, announced their launches, and written about why and how they were made, but I still need an easily browsable place to collect and share that work.</li>
-			</ul>
-		</blockquote>
+<blockquote>
+  <ul>
+    <li><strong>Timeline:</strong> The blog on the current version of my site, V6, <a href="https://v6.robweychert.com/blog/">collects</a> most of what I’ve written for public consumption since 2001 across nearly 40 different sources. I’d like to expand that to include even more sources and content types, collecting virtually everything I’ve shared online in one sprawling, sortable/filterable timeline.</li>
+    <li><strong>Projects:</strong> I’ve made a lot of cool things personally and professionally over the past few years, announced their launches, and written about why and how they were made, but I still need an easily browsable place to collect and share that work.</li>
+  </ul>
+</blockquote>
 
-		<p>The timeline is listed first because it’s the more complex of the two, but projects are actually a higher priority.</p>
+<p>The timeline is listed first because it’s the more complex of the two, but projects are actually a higher priority.</p>
 
-		<p>As noted above, a version of the timeline already exists in V6, and while I want to rethink its structure a bit for V7, most of its substance is already in place. Whatever additions are made can be made post-launch if necessary. In the meantime, most of those additions (e.g. tweets and Flickr photos) are for now easily found and browsed elsewhere online, so their inclusion isn’t all that urgent.</p>
+<p>As noted above, a version of the timeline already exists in V6, and while I want to rethink its structure a bit for V7, most of its substance is already in place. Whatever additions are made can be made post-launch if necessary. In the meantime, most of those additions (e.g. tweets and Flickr photos) are for now easily found and browsed elsewhere online, so their inclusion isn’t all that urgent.</p>
 
-		<p>Projects, on the other hand, are currently Easter eggs at best. They’re out there, and you might be able to find them if you’re looking for them, but you’re unlikely to stumble upon them, and they can’t be seen in aggregate as a body of work. Compared to the timeline additions, most of which are old and vary widely in terms of value and substance, the projects’ inclusion is a high priority, because they’re recent and substantial and they represent how I’m spending a lot of my time, so I want them to be much more visible.</p>
+<p>Projects, on the other hand, are currently Easter eggs at best. They’re out there, and you might be able to find them if you’re looking for them, but you’re unlikely to stumble upon them, and they can’t be seen in aggregate as a body of work. Compared to the timeline additions, most of which are old and vary widely in terms of value and substance, the projects’ inclusion is a high priority, because they’re recent and substantial and they represent how I’m spending a lot of my time, so I want them to be much more visible.</p>
 
-		<p>So those are my high-level content priorities for V7. Almost the entirety of the site’s content will fall within one of these two areas, so their structure is the site’s structure. In the next post, I’ll get into my ideas for that structure and the challenges they present.</p>
+<p>So those are my high-level content priorities for V7. Almost the entirety of the site’s content will fall within one of these two areas, so their structure is the site’s structure. In the next post, I’ll get into my ideas for that structure and the challenges they present.</p>
 
+			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Content priorities">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/01/v7-content-priorities/</link>
-		<guid>https://v7.robweychert.com/blog/2020/01/v7-content-priorities/</guid>
+		<link>http://localhost:4000/blog/2020/01/v7-content-priorities/</link>
+		<guid>http://localhost:4000/blog/2020/01/v7-content-priorities/</guid>
 		<pubDate>Wed, 08 Jan 2020 08:50:00 -0500</pubDate>
 	</item>
 	
 	<item>
 		<title>The “viewport” meta tag</title>
 		<description><![CDATA[
+			<p><em>Apparently it is still necessary!</em></p>
+			
 			<p>The first thing I did when setting up this new version of my site was to put together some minimum viable HTML templates. Here’s the blog post template:</p>
 
-		<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
 
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;title&gt;&lt;!--POST TITLE--&gt; | RobWeychert.com V7&lt;/title&gt;
-  &lt;meta name="description" content="&lt;!--POST DESCRIPTION--&gt;"&gt;
-  &lt;link rel="alternate" type="application/rss+xml" title="RobWeychert.com V7" href="/index.rss"&gt;
-&lt;/head&gt;
+<span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;title&gt;</span><span class="c">&lt;!--POST TITLE--&gt;</span> | RobWeychert.com V7<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"description"</span> <span class="na">content=</span><span class="s">"&lt;!--POST DESCRIPTION--&gt;"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"alternate"</span> <span class="na">type=</span><span class="s">"application/rss+xml"</span> <span class="na">title=</span><span class="s">"RobWeychert.com V7"</span> <span class="na">href=</span><span class="s">"/index.rss"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
 
-&lt;body&gt;
+<span class="nt">&lt;body&gt;</span>
 
-  &lt;header&gt;
-    &lt;h1&gt;&lt;a href="/"&gt;RobWeychert.com V7&lt;/a&gt;&lt;/h1&gt;
-    &lt;nav&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href="/blog/"&gt;Blog&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="/index.rss"&gt;RSS&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/nav&gt;
-  &lt;/header&gt;
+  <span class="nt">&lt;header&gt;</span>
+    <span class="nt">&lt;h1&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/"</span><span class="nt">&gt;</span>RobWeychert.com V7<span class="nt">&lt;/a&gt;&lt;/h1&gt;</span>
+    <span class="nt">&lt;nav&gt;</span>
+      <span class="nt">&lt;ul&gt;</span>
+        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/blog/"</span><span class="nt">&gt;</span>Blog<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/index.rss"</span><span class="nt">&gt;</span>RSS<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+      <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/nav&gt;</span>
+  <span class="nt">&lt;/header&gt;</span>
 
-  &lt;aside&gt;I’m redesigning my site in public from the ground up, so if it looks undercooked, that’s why! Check out the &lt;a href="/blog/"&gt;blog&lt;/a&gt; to follow the process step by step, or visit the more polished &lt;a href="https://v6.robweychert.com/"&gt;current version&lt;/a&gt; of the site.&lt;/aside&gt;
+  <span class="nt">&lt;aside&gt;</span>I’m redesigning my site in public from the ground up, so if it looks undercooked, that’s why! Check out the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/blog/"</span><span class="nt">&gt;</span>blog<span class="nt">&lt;/a&gt;</span> to follow the process step by step, or visit the more polished <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://v6.robweychert.com/"</span><span class="nt">&gt;</span>current version<span class="nt">&lt;/a&gt;</span> of the site.<span class="nt">&lt;/aside&gt;</span>
 
-  &lt;main&gt;
-    &lt;header&gt;
-      &lt;h2&gt;&lt;!--POST TITLE--&gt;&lt;/h2&gt;
-      &lt;p&gt;&lt;!--POST DESCRIPTION--&gt;&lt;/p&gt;
-      &lt;time datetime="&lt;!--YYYY-MM-DD--&gt;"&gt;&lt;!--POST DATE--&gt;&lt;/time&gt;
-    &lt;/header&gt;
+  <span class="nt">&lt;main&gt;</span>
+    <span class="nt">&lt;header&gt;</span>
+      <span class="nt">&lt;h2&gt;</span><span class="c">&lt;!--POST TITLE--&gt;</span><span class="nt">&lt;/h2&gt;</span>
+      <span class="nt">&lt;p&gt;</span><span class="c">&lt;!--POST DESCRIPTION--&gt;</span><span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;time</span> <span class="na">datetime=</span><span class="s">"&lt;!--YYYY-MM-DD--&gt;"</span><span class="nt">&gt;</span><span class="c">&lt;!--POST DATE--&gt;</span><span class="nt">&lt;/time&gt;</span>
+    <span class="nt">&lt;/header&gt;</span>
 
-    &lt;!--POST CONTENT--&gt;
+    <span class="c">&lt;!--POST CONTENT--&gt;</span>
 
-  &lt;/main&gt;
+  <span class="nt">&lt;/main&gt;</span>
 
-  &lt;nav aria-label="Secondary"&gt;
-    &lt;h2&gt;Most recent blog posts&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;a href="/blog/&lt;!--YYYY/MM/POST TITLE SLUG--&gt;/"&gt;
-          &lt;h3&gt;&lt;!--POST TITLE--&gt;&lt;/h3&gt;
-          &lt;p&gt;&lt;!--POST DESCRIPTION--&gt;&lt;/p&gt;
-          &lt;time datetime="&lt;!--YYYY-MM-DD--&gt;"&gt;&lt;!--POST DATE--&gt;&lt;/time&gt;
-        &lt;/a&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/nav&gt;
+  <span class="nt">&lt;nav</span> <span class="na">aria-label=</span><span class="s">"Secondary"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h2&gt;</span>Most recent blog posts<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;ul&gt;</span>
+      <span class="nt">&lt;li&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/blog/&lt;!--YYYY/MM/POST TITLE SLUG--&gt;/"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;h3&gt;</span><span class="c">&lt;!--POST TITLE--&gt;</span><span class="nt">&lt;/h3&gt;</span>
+          <span class="nt">&lt;p&gt;</span><span class="c">&lt;!--POST DESCRIPTION--&gt;</span><span class="nt">&lt;/p&gt;</span>
+          <span class="nt">&lt;time</span> <span class="na">datetime=</span><span class="s">"&lt;!--YYYY-MM-DD--&gt;"</span><span class="nt">&gt;</span><span class="c">&lt;!--POST DATE--&gt;</span><span class="nt">&lt;/time&gt;</span>
+        <span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+  <span class="nt">&lt;/nav&gt;</span>
 
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
 
-	<p>The site is, for the time being, made exclusively of HTML, so I didn’t bother to test it on different devices since browsers would apply their own default styles. But then I noticed it was doing this on iOS:</p>
+<p>The site is, for the time being, made exclusively of HTML, so I didn’t bother to test it on different devices since browsers would apply their own default styles. But then I noticed it was doing this on iOS:</p>
 
-	<figure>
-		<img src="/assets/images/2020-01-04-ios-shrunken.png" width="300" alt="Screenshot of a shrunken blog post in iOS Firefox">
-		<figcaption>iOS shrinks the page, treating it as if it were designed specifically for desktop browsers.</figcaption>
-	</figure>
+<p><img src="/assets/images/2020-01-04-ios-shrunken.png" alt="Screenshot of a shrunken blog post in iOS Firefox" /></p>
 
-	<p>It turned out my minimum viable HTML wasn’t quite viable after all! I had left out the <code>&lt;meta name="viewport"&gt;</code> tag from the <code>&lt;head&gt;</code>. It’s been part of my HTML boilerplate for years, and I’ve always generally understood what it does, but this incident prompted me to learn a little more. After digging around a bit, I found an in-depth <a href="https://www.quirksmode.org/mobile/viewports.html">two</a>-<a href="https://www.quirksmode.org/mobile/viewports2.html">part</a> post from Peter-Paul Koch on how browser viewports work with device pixels and CSS pixels. I also found Apple’s <a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html">documentation</a> for configuring the viewport using <code>&lt;meta name="viewport"&gt;</code>. Both of those posts appear to have been published around 2010, but much of the information is still relevant.</p>
+<!-- figcaption -->
+<p>iOS shrinks the page, treating it as if it were designed specifically for desktop browsers.</p>
 
-	<p>Due to the complexity of the subject, those posts are illuminating if not quite elucidating, but here’s the gist: When the iPhone was first released, Apple proudly trumpeted its ability to bring mobile users the “real” internet: not the stripped down mobile versions of websites that were de rigeur at the time (on the rare occasions developers even bothered making them), but the “real” versions that you would see on a desktop computer. It rendered these desktop-optimized sites by assuming they were approximately 980 pixels wide and shrinking everything to fit on the iPhone’s screen, which was 320 pixels wide. The user could then zoom and pan the page to get a closer look. This was a reasonable compromise, but it meant that if anyone tried to optimize a site’s design for a mobile device, that page would likewise be shrunken when rendered on the iPhone. So Apple created the <code>&lt;meta name="viewport"&gt;</code> tag, which would give developers control over how their work was rendered on the iPhone. Other mobile browser makers subsequently adopted it, making it a <a href="https://drafts.csswg.org/css-device-adapt/#viewport-meta">de facto standard</a>.</p>
+<p>It turned out my minimum viable HTML wasn’t quite viable after all! I had left out the <code class="language-plaintext highlighter-rouge">&lt;meta name="viewport"&gt;</code> tag from the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>. It’s been part of my HTML boilerplate for years, and I’ve always generally understood what it does, but this incident prompted me to learn a little more. After digging around a bit, I found an in-depth <a href="https://www.quirksmode.org/mobile/viewports.html">two</a>-<a href="https://www.quirksmode.org/mobile/viewports2.html">part</a> post from Peter-Paul Koch on how browser viewports work with device pixels and CSS pixels. I also found Apple’s <a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html">documentation</a> for configuring the viewport using <code class="language-plaintext highlighter-rouge">&lt;meta name="viewport"&gt;</code>. Both of those posts appear to have been published around 2010, but much of the information is still relevant.</p>
 
-	<p>Fast-forward more than a decade and no one thinks of the desktop as the default way to experience the web anymore, so I thought I might be able to get away with omitting <code>&lt;meta name="viewport"&gt;</code>. Apparently not! Maybe someday. In the meantime, you can see the aforementioned Apple <a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html">documentation</a> for details on how to use <code>&lt;meta name="viewport"&gt;</code>, but this should cover you in most cases:</p>
+<p>Due to the complexity of the subject, those posts are illuminating if not quite elucidating, but here’s the gist: When the iPhone was first released, Apple proudly trumpeted its ability to bring mobile users the “real” internet: not the stripped down mobile versions of websites that were de rigeur at the time (on the rare occasions developers even bothered making them), but the “real” versions that you would see on a desktop computer. It rendered these desktop-optimized sites by assuming they were approximately 980 pixels wide and shrinking everything to fit on the iPhone’s screen, which was 320 pixels wide. The user could then zoom and pan the page to get a closer look. This was a reasonable compromise, but it meant that if anyone tried to optimize a site’s design for a mobile device, that page would likewise be shrunken when rendered on the iPhone. So Apple created the <code class="language-plaintext highlighter-rouge">&lt;meta name="viewport"&gt;</code> tag, which would give developers control over how their work was rendered on the iPhone. Other mobile browser makers subsequently adopted it, making it a <a href="https://drafts.csswg.org/css-device-adapt/#viewport-meta">de facto standard</a>.</p>
 
-	<pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</code></pre>
+<p>Fast-forward more than a decade and no one thinks of the desktop as the default way to experience the web anymore, so I thought I might be able to get away with omitting <code class="language-plaintext highlighter-rouge">&lt;meta name="viewport"&gt;</code>. Apparently not! Maybe someday. In the meantime, you can see the aforementioned Apple <a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html">documentation</a> for details on how to use <code class="language-plaintext highlighter-rouge">&lt;meta name="viewport"&gt;</code>, but this should cover you in most cases:</p>
 
-	<figure>
-		<img src="/assets/images/2020-01-04-ios-correct.png" width="300" alt="Screenshot of a correctly rendered blog post in iOS Firefox">
-		<figcaption>No more shrinkage!</figcaption>
-	</figure>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
 
+<p><img src="/assets/images/2020-01-04-ios-correct.png" alt="Screenshot of a correctly rendered blog post in iOS Firefox" /></p>
+
+<!-- figcaption -->
+<p>No more shrinkage!</p>
+
+			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: The “viewport” meta tag">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/01/v7-viewport-meta-tag/</link>
-		<guid>https://v7.robweychert.com/blog/2020/01/v7-viewport-meta-tag/</guid>
+		<link>http://localhost:4000/blog/2020/01/v7-viewport-meta-tag/</link>
+		<guid>http://localhost:4000/blog/2020/01/v7-viewport-meta-tag/</guid>
 		<pubDate>Sat, 04 Jan 2020 17:00:00 -0500</pubDate>
 	</item>
 	
 	<item>
 		<title>Introduction</title>
 		<description><![CDATA[
+			<p><em>Redesigning my site in public</em></p>
+			
 			<p>Welcome to RobWeychert.com V7! There are a number of new things I want to try with my site, from structure to aesthetics to code, and so it’s time to begin a fresh redesign. Inspired by my friends <a href="https://2020.destroytoday.com/">Jonnie</a> and <a href="https://redesign.frankchimero.com/">Frank</a>, I’ve decided to do it in public from the ground up. I’m starting with bare-bones HTML and as the design process unfolds, each step will be reflected on the site in real time and documented with a succinct blog post. I’m hoping to post at least once a week, but that will probably fluctuate.</p>
 
-		<p>Here are some of the core ideas driving the redesign, which I’ll flesh out further in subsequent posts:</p>
+<p>Here are some of the core ideas driving the redesign, which I’ll flesh out further in subsequent posts:</p>
 
-		<ul>
-			<li><strong>Timeline:</strong> The blog on the current version of my site, V6, <a href="https://v6.robweychert.com/blog/">collects</a> most of what I’ve written for public consumption since 2001 across nearly 40 different sources. I’d like to expand that to include even more sources and content types, collecting virtually everything I’ve shared online in one sprawling, sortable/filterable timeline.</li>
-			<li><strong>Projects:</strong> I’ve made a lot of cool things personally and professionally over the past few years, announced their launches, and written about why and how they were made, but I still need an easily browsable place to collect and share that work.</li>
-			<li><strong>Overprint:</strong> The basis of the aesthetic I want to explore.</li>
-			<li><strong>Tools and tech:</strong> My approach to layout and style is evolving with the help of expanding browser support for CSS specs like Flexbox, Grid, and Custom Properties. I’m also considering moving away from Jekyll to another static site generator as well as updating my deployment method from FTP sync to something more modern.</li>
-		</ul>
+<ul>
+  <li><strong>Timeline:</strong> The blog on the current version of my site, V6, <a href="https://v6.robweychert.com/blog/">collects</a> most of what I’ve written for public consumption since 2001 across nearly 40 different sources. I’d like to expand that to include even more sources and content types, collecting virtually everything I’ve shared online in one sprawling, sortable/filterable timeline.</li>
+  <li><strong>Projects:</strong> I’ve made a lot of cool things personally and professionally over the past few years, announced their launches, and written about why and how they were made, but I still need an easily browsable place to collect and share that work.</li>
+  <li><strong>Overprint:</strong> The basis of the aesthetic I want to explore.</li>
+  <li><strong>Tools and tech:</strong> My approach to layout and style is evolving with the help of expanding browser support for CSS specs like Flexbox, Grid, and Custom Properties. I’m also considering moving away from Jekyll to another static site generator as well as updating my deployment method from FTP sync to something more modern.</li>
+</ul>
 
-		<p>More to come. Stay tuned!</p>
+<p>More to come. Stay tuned!</p>
 
+			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Introduction">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/01/v7-introduction/</link>
-		<guid>https://v7.robweychert.com/blog/2020/01/v7-introduction/</guid>
+		<link>http://localhost:4000/blog/2020/01/v7-introduction/</link>
+		<guid>http://localhost:4000/blog/2020/01/v7-introduction/</guid>
 		<pubDate>Wed, 01 Jan 2020 15:00:00 -0500</pubDate>
 	</item>
 	

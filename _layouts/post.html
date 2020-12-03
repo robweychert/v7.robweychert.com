@@ -3,6 +3,11 @@ layout: default
 ---
 
 <main aria-label="Content">
+	<header>
+		<h2>{{ page.title }}</h2>
+		<p>{{ page.description }}</p>
+		<time datetime="{{ page.date | date: '%Y-%m-%d'}}">{{ page.date | date: '%Y' }} {{ page.date | date: '%b' }} {{ page.date | date: '%d' }}</time>
+	</header>
 	{{ page.content }}
 </main>
 
@@ -16,7 +21,7 @@ layout: default
 				<strong>{{ page.previous.title | escape }}</strong>
 			</a>{% else %}
 			Previous post:<br>
-			This is the first post
+			This is the first post{% endif %}
 		</li>
 		<li>{% if page.next %}
 			<a href="{{ page.next.url | absolute_url }}">
@@ -24,7 +29,7 @@ layout: default
 				<strong>{{ page.next.title | escape }}</strong>
 			</a>{% else %}
 			Next post:<br>
-			This is the most recent post
+			This is the most recent post{% endif %}
 		</li>
 	</ul>
 </nav>

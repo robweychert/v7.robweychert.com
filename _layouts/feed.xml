@@ -9,7 +9,7 @@
 	{% for post in site.posts %}{% if forloop.first %}<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>{% endif %}{% endfor %}
 	{% for post in site.posts limit:10 %}
 	<item>
-		<title>{{ post.title %}</title>
+		<title>{{ post.title }}</title>
 		<description><![CDATA[
 			{% if post.description %}<p><em>{{ post.description }}</em></p>{% endif %}
 			{% if post.spoilers == true %}<p><strong>Spoiler Alert!</strong></p>{% endif %}
