@@ -7,7 +7,7 @@
 	<meta name="description" content="Making progress with sketches, wireframes, and a prototype">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="alternate" type="application/rss+xml" title="RobWeychert.com V7" href="/index.rss">
-	<link rel="stylesheet" href="/assets/css/main.css?202012022325">
+	<link rel="stylesheet" href="/assets/css/main.css?202012040958">
 </head>
 
 <body>
@@ -34,10 +34,11 @@
 	</header>
 	<p>Though it’s mostly taken place in scattered, stolen moments, I’ve made a lot of progress on the UX of the timeline section, much of which was still a disconcerting mystery not so long ago.</p>
 
-<p><img src="/assets/images/2020-03-03-sketchbook-ux.png" alt="" /></p>
-
-<!-- figcaption -->
-<p>Some notes and sketches working through the timeline’s UX and IA problems</p>
+<figure>
+	<img src="/assets/images/2020-03-03-sketchbook-ux.png" alt="" />
+	<figcaption><p>Some notes and sketches working through the timeline’s UX and IA problems</p>
+</figcaption>
+</figure>
 
 <p>With the help of the data categories and content inventory I established in the <a href="https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/">previous post</a>, I’ve settled on a binary timeline concept: each post is either <em>small</em> or <em>large</em>. Small posts consist of up to 100 words and/or up to four images/videos. They’ll be represented on the timeline in their entirety. Large posts consist of 100 or more words and/or more than four images/videos. They’ll be represented on the timeline in truncated form. (I know <a href="https://ambientimpact.com/web/snippets/when-text-truncation-fails">truncation is not a content strategy</a>, but I’m giving it a shot anyway.) As timeline nodes, small and large posts alike will be constructed according to their needs from a shared library of elements.</p>
 
@@ -54,41 +55,49 @@
   <li><strong>Image/video cluster:</strong> More than four images/videos, with a link to the full post.</li>
 </ul>
 
-<p><img src="/assets/images/2020-03-03-sketchbook-venn.png" alt="" /></p>
-
-<!-- figcaption -->
-<p>A Venn diagram of the elements relevant to small and large nodes</p>
+<figure>
+	<img src="/assets/images/2020-03-03-sketchbook-venn.png" alt="" />
+	<figcaption><p>A Venn diagram of the elements relevant to small and large nodes</p>
+</figcaption>
+</figure>
 
 <h3 id="wireframes">Wireframes</h3>
 
 <p>I made some wireframes of small and large timeline nodes with the maximum amount of content each could have. (I made the wireframes in Sketch, which, in addition to Figma, I’m finally coming around to after years of avoiding them.)</p>
 
-<p><img src="/assets/images/2020-03-03-wireframe-small-node.png" alt="" /></p>
+<figure>
+	<img src="/assets/images/2020-03-03-wireframe-small-node.png" alt="" width="300" />
+	<figcaption><p>Small timeline node</p>
+</figcaption>
+</figure>
 
-<!-- figcaption -->
-<p>Small timeline node</p>
-
-<p><img src="/assets/images/2020-03-03-wireframe-large-node.png" alt="" /></p>
-
-<!-- figcaption -->
-<p>Large timeline node</p>
+<figure>
+	<img src="/assets/images/2020-03-03-wireframe-large-node.png" alt="" width="300" />
+	<figcaption><p>Large timeline node</p>
+</figcaption>
+</figure>
 
 <p>And here is an excerpt from a wireframe with actual content from January 2020 that helped me get a sense of how the timeline nodes would work in aggregate:</p>
 
-<p><img src="/assets/images/2020-03-03-wireframe-january-cropped.png" alt="" /></p>
-
-<!-- figcaption -->
-<p><a href="/assets/images/2020-03-03-wireframe-january-full.png">See the full wireframe</a></p>
+<figure>
+	<img src="/assets/images/2020-03-03-wireframe-january-cropped.png" alt="" width="300" />
+	<figcaption><p><a href="/assets/images/2020-03-03-wireframe-january-full.png">See the full wireframe</a></p>
+</figcaption>
+</figure>
 
 <h3 id="filters">Filters</h3>
 
 <p>When I started, I didn’t think my January was a very active month, but its timeline has 45 nodes, which is certainly not nothing. This was a good excuse to start thinking about how filters could work, a concept which quickly evolved from sketch…</p>
 
-<p><img src="/assets/images/2020-03-03-sketchbook-filters.png" alt="" /></p>
+<figure>
+	<img src="/assets/images/2020-03-03-sketchbook-filters.png" alt="" />
+</figure>
 
 <p>…to wireframe…</p>
 
-<p><img src="/assets/images/2020-03-03-wireframe-filters.png" alt="" /></p>
+<figure>
+	<img src="/assets/images/2020-03-03-wireframe-filters.png" alt="" width="300" />
+</figure>
 
 <p>…to getting way ahead of myself and spending an entire weekend building a functional prototype. If you have JavaScript enabled, you can try it:</p>
 
@@ -108,7 +117,6 @@
 			<li class="tl-node" data-content="Video" data-length="Short" data-source="Flickr">video, short, Flickr</li>
 		</ul>
 	</div>
-	<!-- <script>addFilter();</script> -->
 </figure>
 
 <p>I’ll go into more detail on the prototype and what I learned from it in a future post.</p>
@@ -147,7 +155,7 @@
 	</ul>
 </nav>
 
-<script src="/assets/js/2020-03-03-v7-timeline-taking-shape.js?202012022325"></script>
+<script src="/assets/js/2020-03-03-v7-timeline-taking-shape.js?202012040958"></script>
 </body>
 
 </html>

@@ -5,7 +5,7 @@
 	<description>A work in progress</description>
 	<link>http://localhost:4000</link>
 	<language>en</language>
-	<lastBuildDate>Wed, 02 Dec 2020 23:25:44 -0500</lastBuildDate>
+	<lastBuildDate>Fri, 04 Dec 2020 09:58:40 -0500</lastBuildDate>
 	<pubDate>Wed, 24 Jun 2020 12:45:00 -0400</pubDate>
 	
 	<item>
@@ -73,10 +73,11 @@
 			
 			<p>Though it’s mostly taken place in scattered, stolen moments, I’ve made a lot of progress on the UX of the timeline section, much of which was still a disconcerting mystery not so long ago.</p>
 
-<p><img src="/assets/images/2020-03-03-sketchbook-ux.png" alt="" /></p>
-
-<!-- figcaption -->
-<p>Some notes and sketches working through the timeline’s UX and IA problems</p>
+<figure>
+	<img src="/assets/images/2020-03-03-sketchbook-ux.png" alt="" />
+	<figcaption><p>Some notes and sketches working through the timeline’s UX and IA problems</p>
+</figcaption>
+</figure>
 
 <p>With the help of the data categories and content inventory I established in the <a href="https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/">previous post</a>, I’ve settled on a binary timeline concept: each post is either <em>small</em> or <em>large</em>. Small posts consist of up to 100 words and/or up to four images/videos. They’ll be represented on the timeline in their entirety. Large posts consist of 100 or more words and/or more than four images/videos. They’ll be represented on the timeline in truncated form. (I know <a href="https://ambientimpact.com/web/snippets/when-text-truncation-fails">truncation is not a content strategy</a>, but I’m giving it a shot anyway.) As timeline nodes, small and large posts alike will be constructed according to their needs from a shared library of elements.</p>
 
@@ -93,41 +94,49 @@
   <li><strong>Image/video cluster:</strong> More than four images/videos, with a link to the full post.</li>
 </ul>
 
-<p><img src="/assets/images/2020-03-03-sketchbook-venn.png" alt="" /></p>
-
-<!-- figcaption -->
-<p>A Venn diagram of the elements relevant to small and large nodes</p>
+<figure>
+	<img src="/assets/images/2020-03-03-sketchbook-venn.png" alt="" />
+	<figcaption><p>A Venn diagram of the elements relevant to small and large nodes</p>
+</figcaption>
+</figure>
 
 <h3 id="wireframes">Wireframes</h3>
 
 <p>I made some wireframes of small and large timeline nodes with the maximum amount of content each could have. (I made the wireframes in Sketch, which, in addition to Figma, I’m finally coming around to after years of avoiding them.)</p>
 
-<p><img src="/assets/images/2020-03-03-wireframe-small-node.png" alt="" /></p>
+<figure>
+	<img src="/assets/images/2020-03-03-wireframe-small-node.png" alt="" width="300" />
+	<figcaption><p>Small timeline node</p>
+</figcaption>
+</figure>
 
-<!-- figcaption -->
-<p>Small timeline node</p>
-
-<p><img src="/assets/images/2020-03-03-wireframe-large-node.png" alt="" /></p>
-
-<!-- figcaption -->
-<p>Large timeline node</p>
+<figure>
+	<img src="/assets/images/2020-03-03-wireframe-large-node.png" alt="" width="300" />
+	<figcaption><p>Large timeline node</p>
+</figcaption>
+</figure>
 
 <p>And here is an excerpt from a wireframe with actual content from January 2020 that helped me get a sense of how the timeline nodes would work in aggregate:</p>
 
-<p><img src="/assets/images/2020-03-03-wireframe-january-cropped.png" alt="" /></p>
-
-<!-- figcaption -->
-<p><a href="/assets/images/2020-03-03-wireframe-january-full.png">See the full wireframe</a></p>
+<figure>
+	<img src="/assets/images/2020-03-03-wireframe-january-cropped.png" alt="" width="300" />
+	<figcaption><p><a href="/assets/images/2020-03-03-wireframe-january-full.png">See the full wireframe</a></p>
+</figcaption>
+</figure>
 
 <h3 id="filters">Filters</h3>
 
 <p>When I started, I didn’t think my January was a very active month, but its timeline has 45 nodes, which is certainly not nothing. This was a good excuse to start thinking about how filters could work, a concept which quickly evolved from sketch…</p>
 
-<p><img src="/assets/images/2020-03-03-sketchbook-filters.png" alt="" /></p>
+<figure>
+	<img src="/assets/images/2020-03-03-sketchbook-filters.png" alt="" />
+</figure>
 
 <p>…to wireframe…</p>
 
-<p><img src="/assets/images/2020-03-03-wireframe-filters.png" alt="" /></p>
+<figure>
+	<img src="/assets/images/2020-03-03-wireframe-filters.png" alt="" width="300" />
+</figure>
 
 <p>…to getting way ahead of myself and spending an entire weekend building a functional prototype. If you have JavaScript enabled, you can try it:</p>
 
@@ -147,7 +156,6 @@
 			<li class="tl-node" data-content="Video" data-length="Short" data-source="Flickr">video, short, Flickr</li>
 		</ul>
 	</div>
-	<!-- <script>addFilter();</script> -->
 </figure>
 
 <p>I’ll go into more detail on the prototype and what I learned from it in a future post.</p>
@@ -179,10 +187,11 @@
 			
 			<p>Progress on the redesign has slowed, partly because I’ve been busy with other things, and partly because, frankly, the open questions about the timeline section enumerated in my <a href="https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/">previous post</a> are an intimidating mess, a perfect example of the early stages of the <a href="https://thedesignsquiggle.com/">Design Squiggle</a>.</p>
 
-<p><img src="/assets/images/2020-02-09-design-squiggle.svg" alt="" /></p>
-
-<!-- figcaption -->
-<p><a href="https://thedesignsquiggle.com/">The Design Squiggle</a>, by Damien Newman</p>
+<figure>
+	<img src="/assets/images/2020-02-09-design-squiggle.svg" alt="" />
+	<figcaption><p><a href="https://thedesignsquiggle.com/">The Design Squiggle</a>, by Damien Newman</p>
+</figcaption>
+</figure>
 
 <p>In a fight or flight situation like this, here are the arguments for flight:</p>
 
@@ -605,10 +614,11 @@
 
 <p>The site is, for the time being, made exclusively of HTML, so I didn’t bother to test it on different devices since browsers would apply their own default styles. But then I noticed it was doing this on iOS:</p>
 
-<p><img src="/assets/images/2020-01-04-ios-shrunken.png" alt="Screenshot of a shrunken blog post in iOS Firefox" /></p>
-
-<!-- figcaption -->
-<p>iOS shrinks the page, treating it as if it were designed specifically for desktop browsers.</p>
+<figure>
+	<img src="/assets/images/2020-01-04-ios-shrunken.png" alt="Screenshot of a shrunken blog post in iOS Firefox" width="300" />
+	<figcaption><p>iOS shrinks the page, treating it as if it were designed specifically for desktop browsers.</p>
+</figcaption>
+</figure>
 
 <p>It turned out my minimum viable HTML wasn’t quite viable after all! I had left out the <code class="language-plaintext highlighter-rouge">&lt;meta name="viewport"&gt;</code> tag from the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>. It’s been part of my HTML boilerplate for years, and I’ve always generally understood what it does, but this incident prompted me to learn a little more. After digging around a bit, I found an in-depth <a href="https://www.quirksmode.org/mobile/viewports.html">two</a>-<a href="https://www.quirksmode.org/mobile/viewports2.html">part</a> post from Peter-Paul Koch on how browser viewports work with device pixels and CSS pixels. I also found Apple’s <a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html">documentation</a> for configuring the viewport using <code class="language-plaintext highlighter-rouge">&lt;meta name="viewport"&gt;</code>. Both of those posts appear to have been published around 2010, but much of the information is still relevant.</p>
 
@@ -619,10 +629,11 @@
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="nt">&gt;</span>
 </code></pre></div></div>
 
-<p><img src="/assets/images/2020-01-04-ios-correct.png" alt="Screenshot of a correctly rendered blog post in iOS Firefox" /></p>
-
-<!-- figcaption -->
-<p>No more shrinkage!</p>
+<figure>
+	<img src="/assets/images/2020-01-04-ios-correct.png" alt="Screenshot of a correctly rendered blog post in iOS Firefox" width="300" />
+	<figcaption><p>No more shrinkage!</p>
+</figcaption>
+</figure>
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: The “viewport” meta tag">Reply by email</a></p>
 		]]></description>

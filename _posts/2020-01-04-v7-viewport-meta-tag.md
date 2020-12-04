@@ -69,9 +69,7 @@ The first thing I did when setting up this new version of my site was to put tog
 
 The site is, for the time being, made exclusively of HTML, so I didn’t bother to test it on different devices since browsers would apply their own default styles. But then I noticed it was doing this on iOS:
 
-![Screenshot of a shrunken blog post in iOS Firefox](/assets/images/2020-01-04-ios-shrunken.png)
-
-<!-- figcaption -->iOS shrinks the page, treating it as if it were designed specifically for desktop browsers.
+{% include figure.html img="2020-01-04-ios-shrunken.png" alt="Screenshot of a shrunken blog post in iOS Firefox" caption="iOS shrinks the page, treating it as if it were designed specifically for desktop browsers." width="300" %}
 
 It turned out my minimum viable HTML wasn’t quite viable after all! I had left out the `<meta name="viewport">` tag from the `<head>`. It’s been part of my HTML boilerplate for years, and I’ve always generally understood what it does, but this incident prompted me to learn a little more. After digging around a bit, I found an in-depth [two](https://www.quirksmode.org/mobile/viewports.html)-[part](https://www.quirksmode.org/mobile/viewports2.html) post from Peter-Paul Koch on how browser viewports work with device pixels and CSS pixels. I also found Apple’s [documentation](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html) for configuring the viewport using `<meta name="viewport">`. Both of those posts appear to have been published around 2010, but much of the information is still relevant.
 
@@ -83,6 +81,4 @@ Fast-forward more than a decade and no one thinks of the desktop as the default 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-![Screenshot of a correctly rendered blog post in iOS Firefox](/assets/images/2020-01-04-ios-correct.png)
-
-<!-- figcaption -->No more shrinkage!
+{% include figure.html img="2020-01-04-ios-correct.png" alt="Screenshot of a correctly rendered blog post in iOS Firefox" caption="No more shrinkage!" width="300" %}

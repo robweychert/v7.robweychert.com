@@ -16,9 +16,7 @@ custom:
 
 Though it’s mostly taken place in scattered, stolen moments, I’ve made a lot of progress on the UX of the timeline section, much of which was still a disconcerting mystery not so long ago.
 
-![](/assets/images/2020-03-03-sketchbook-ux.png)
-
-<!-- figcaption -->Some notes and sketches working through the timeline’s UX and IA problems
+{% include figure.html img="2020-03-03-sketchbook-ux.png" caption="Some notes and sketches working through the timeline’s UX and IA problems" %}
 
 With the help of the data categories and content inventory I established in the [previous post](https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/), I’ve settled on a binary timeline concept: each post is either *small* or *large*. Small posts consist of up to 100 words and/or up to four images/videos. They’ll be represented on the timeline in their entirety. Large posts consist of 100 or more words and/or more than four images/videos. They’ll be represented on the timeline in truncated form. (I know [truncation is not a content strategy](https://ambientimpact.com/web/snippets/when-text-truncation-fails), but I’m giving it a shot anyway.) As timeline nodes, small and large posts alike will be constructed according to their needs from a shared library of elements.
 
@@ -33,37 +31,29 @@ With the help of the data categories and content inventory I established in the 
 * **Image/video carousel:** Up to four images/videos.
 * **Image/video cluster:** More than four images/videos, with a link to the full post.
 
-![](/assets/images/2020-03-03-sketchbook-venn.png)
-
-<!-- figcaption -->A Venn diagram of the elements relevant to small and large nodes
+{% include figure.html img="2020-03-03-sketchbook-venn.png" caption="A Venn diagram of the elements relevant to small and large nodes" %}
 
 ### Wireframes
 
 I made some wireframes of small and large timeline nodes with the maximum amount of content each could have. (I made the wireframes in Sketch, which, in addition to Figma, I’m finally coming around to after years of avoiding them.)
 
-![](/assets/images/2020-03-03-wireframe-small-node.png)
+{% include figure.html img="2020-03-03-wireframe-small-node.png" caption="Small timeline node" width="300" %}
 
-<!-- figcaption -->Small timeline node
-
-![](/assets/images/2020-03-03-wireframe-large-node.png)
-
-<!-- figcaption -->Large timeline node
+{% include figure.html img="2020-03-03-wireframe-large-node.png" caption="Large timeline node" width="300" %}
 
 And here is an excerpt from a wireframe with actual content from January 2020 that helped me get a sense of how the timeline nodes would work in aggregate:
 
-![](/assets/images/2020-03-03-wireframe-january-cropped.png)
-
-<!-- figcaption -->[See the full wireframe](/assets/images/2020-03-03-wireframe-january-full.png)
+{% include figure.html img="2020-03-03-wireframe-january-cropped.png" caption="[See the full wireframe](/assets/images/2020-03-03-wireframe-january-full.png)" width="300" %}
 
 ### Filters
 
 When I started, I didn’t think my January was a very active month, but its timeline has 45 nodes, which is certainly not nothing. This was a good excuse to start thinking about how filters could work, a concept which quickly evolved from sketch…
 
-![](/assets/images/2020-03-03-sketchbook-filters.png)
+{% include figure.html img="2020-03-03-sketchbook-filters.png" %}
 
 …to wireframe…
 
-![](/assets/images/2020-03-03-wireframe-filters.png)
+{% include figure.html img="2020-03-03-wireframe-filters.png" width="300" %}
 
 …to getting way ahead of myself and spending an entire weekend building a functional prototype. If you have JavaScript enabled, you can try it:
 
@@ -83,7 +73,6 @@ When I started, I didn’t think my January was a very active month, but its tim
 			<li class="tl-node" data-content="Video" data-length="Short" data-source="Flickr">video, short, Flickr</li>
 		</ul>
 	</div>
-	<!-- <script>addFilter();</script> -->
 </figure>
 
 I’ll go into more detail on the prototype and what I learned from it in a future post.

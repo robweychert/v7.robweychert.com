@@ -14,9 +14,7 @@ tags:
 
 Progress on the redesign has slowed, partly because I’ve been busy with other things, and partly because, frankly, the open questions about the timeline section enumerated in my [previous post](https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/) are an intimidating mess, a perfect example of the early stages of the [Design Squiggle](https://thedesignsquiggle.com/).
 
-![](/assets/images/2020-02-09-design-squiggle.svg)
-
-<!-- figcaption -->[The Design Squiggle](https://thedesignsquiggle.com/), by Damien Newman
+{% include figure.html img="2020-02-09-design-squiggle.svg" caption="[The Design Squiggle](https://thedesignsquiggle.com/), by Damien Newman" %}
 
 In a fight or flight situation like this, here are the arguments for flight:
 
