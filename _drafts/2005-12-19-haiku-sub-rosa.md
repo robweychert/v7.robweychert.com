@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-19 18:12:00
 title: "Daily Haiku: Sub Rosa"
-slug: haiku-billet-sub-rosa
+slug: haiku-sub-rosa
 tags:
   - daily haiku
 category: RobWeychert.com V4

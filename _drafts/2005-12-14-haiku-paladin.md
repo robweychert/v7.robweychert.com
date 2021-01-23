@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-14 16:01:00
 title: "Daily Haiku: Paladin"
-slug: haiku-billet-paladin
+slug: haiku-paladin
 tags:
   - daily haiku
 category: RobWeychert.com V4

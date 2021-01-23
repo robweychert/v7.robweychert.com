@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-01 10:56:00
 title: "Daily Haiku: Alfresco"
-slug: haiku-billet-alfresco
+slug: haiku-alfresco
 tags:
   - daily haiku
 category: RobWeychert.com V4

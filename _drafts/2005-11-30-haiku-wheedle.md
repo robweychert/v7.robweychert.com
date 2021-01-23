@@ -2,7 +2,7 @@
 layout: post
 date: 2005-11-30 12:26:00
 title: "Daily Haiku: Wheedle"
-slug: haiku-billet-Wheedle
+slug: haiku-Wheedle
 tags:
   - daily haiku
 category: RobWeychert.com V4

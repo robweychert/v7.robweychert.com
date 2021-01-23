@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-15 15:52:00
 title: "Daily Haiku: Hale"
-slug: haiku-billet-hale
+slug: haiku-hale
 tags:
   - daily haiku
 category: RobWeychert.com V4

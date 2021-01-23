@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-05 17:26:00
 title: "Daily Haiku: Panache"
-slug: haiku-billet-panache
+slug: haiku-panache
 tags:
   - daily haiku
 category: RobWeychert.com V4

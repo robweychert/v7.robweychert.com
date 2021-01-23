@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-12 17:17:00
 title: "Daily Haiku: Tmesis"
-slug: haiku-billet-tmesis
+slug: haiku-tmesis
 tags:
   - daily haiku
 category: RobWeychert.com V4

@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-02 16:08:00
 title: "Daily Haiku: Redivivus"
-slug: haiku-billet-redivivus
+slug: haiku-redivivus
 tags:
   - daily haiku
 category: RobWeychert.com V4

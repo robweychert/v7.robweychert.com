@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-16 17:36:00
 title: "Daily Haiku: Sacrosanct"
-slug: haiku-billet-sacrosanct
+slug: haiku-sacrosanct
 tags:
   - daily haiku
 category: RobWeychert.com V4

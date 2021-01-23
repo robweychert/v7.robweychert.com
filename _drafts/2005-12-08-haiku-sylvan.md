@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-08 15:10:00
 title: "Daily Haiku: Sylvan"
-slug: haiku-billet-sylvan
+slug: haiku-sylvan
 tags:
   - daily haiku
 category: RobWeychert.com V4

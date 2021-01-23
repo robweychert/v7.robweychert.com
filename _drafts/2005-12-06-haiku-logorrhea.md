@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-06 17:54:00
 title: "Daily Haiku: Logorrhea"
-slug: haiku-billet-logorrhea
+slug: haiku-logorrhea
 tags:
   - daily haiku
 category: RobWeychert.com V4

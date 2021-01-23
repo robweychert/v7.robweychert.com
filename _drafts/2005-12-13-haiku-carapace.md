@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-13 15:25:00
 title: "Daily Haiku: Carapace"
-slug: haiku-billet-carapace
+slug: haiku-carapace
 tags:
   - daily haiku
 category: RobWeychert.com V4

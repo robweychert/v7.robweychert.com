@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-07 14:59:00
 title: "Daily Haiku: Assiduous"
-slug: haiku-billet-assiduous
+slug: haiku-assiduous
 tags:
   - daily haiku
 category: RobWeychert.com V4

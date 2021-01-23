@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-09 17:39:00
 title: "Daily Haiku: Voluptuary"
-slug: haiku-billet-voluptuary
+slug: haiku-voluptuary
 tags:
   - daily haiku
 category: RobWeychert.com V4

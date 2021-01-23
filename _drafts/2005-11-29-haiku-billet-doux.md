@@ -2,7 +2,7 @@
 layout: post
 date: 2005-11-29 20:38:00
 title: "Daily Haiku: Billet-doux"
-slug: haiku-billet-doux
+slug: haiku-doux
 tags:
   - daily haiku
 category: RobWeychert.com V4

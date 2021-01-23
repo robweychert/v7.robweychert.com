@@ -2,7 +2,7 @@
 layout: post
 date: 2005-12-20 17:57:00
 title: "Daily Haiku: Digerati"
-slug: haiku-billet-digerati
+slug: haiku-digerati
 tags:
   - daily haiku
 category: RobWeychert.com V4
