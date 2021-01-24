@@ -27,6 +27,7 @@ url: "https://v7.robweychert.com" # the base hostname & protocol for your site, 
 permalink: /blog/:year/:month/:title/
 twitter_username: robweychert
 github_username:  robweychert
+timezone: America/New_York
 
 # Build settings
 # theme: minima

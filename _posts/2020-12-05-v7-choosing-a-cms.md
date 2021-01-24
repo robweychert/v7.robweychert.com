@@ -1,7 +1,7 @@
 ---
 layout: post
 canonical: https://v7.robweychert.com/blog/2020/12/v7-choosing-a-cms/
-date: 2020-12-05 23:00:00-0400
+date: 2020-12-05 23:00:00-0500
 title: Choosing a CMS
 description: Do my new content requirements need a new content management system?
 slug: v7-choosing-a-cms
