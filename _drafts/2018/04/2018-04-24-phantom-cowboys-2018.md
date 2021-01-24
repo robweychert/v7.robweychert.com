@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: documentary, theater, Regal Battery Park Stadium 11, festival, Tribeca Film Festival, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/rtDUt
 ---

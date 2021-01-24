@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: standup comedy, Netflix, streaming, laptop, Philadelphia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1Jmk7
 ---

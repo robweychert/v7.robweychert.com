@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, criterion channel, streaming, HDTV, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/S5tjd
 ---

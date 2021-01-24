@@ -7,7 +7,6 @@ rating: 0.9
 tags_letterboxd: narrative, theater, nitehawk cinema, $5 film club, nyc, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/lR963
 ---

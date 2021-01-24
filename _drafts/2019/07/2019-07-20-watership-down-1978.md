@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, criterion channel, streaming, HDTV, NYC, animation
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/LwEsL
 ---

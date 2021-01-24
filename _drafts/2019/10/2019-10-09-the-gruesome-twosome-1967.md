@@ -7,7 +7,6 @@ rating: 0.2
 tags_letterboxd: narrative, criterion channel, streaming, ipad, yosemite national park, robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/PXFLJ
 ---

@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: documentary, netflix, streaming, hdtv, nyc
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/8jWe1
 ---

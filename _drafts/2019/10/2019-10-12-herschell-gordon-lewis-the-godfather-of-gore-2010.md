@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: documentary, criterion channel, streaming, HDTV, NYC, robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/Q0GJP
 ---

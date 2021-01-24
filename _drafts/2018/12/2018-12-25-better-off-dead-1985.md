@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, YouTube, streaming, projector, Philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/AzZpZ
 ---

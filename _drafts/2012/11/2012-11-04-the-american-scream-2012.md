@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: documentary, netflix, streaming, laptop, philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/x2ix
 ---

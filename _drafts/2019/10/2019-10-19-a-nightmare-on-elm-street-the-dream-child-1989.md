@@ -7,7 +7,6 @@ rating: 0.2
 tags_letterboxd: narrative, itunes, streaming, HDTV, NYC, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/QtVtv
 ---

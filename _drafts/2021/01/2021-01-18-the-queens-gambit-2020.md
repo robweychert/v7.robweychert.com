@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, netflix, streaming, hdtv, philadelphia, leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1Bi8vN
 ---

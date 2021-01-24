@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, netflix, streaming, iPad, HDTV, NYC, insomnia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/SIF3z
 ---

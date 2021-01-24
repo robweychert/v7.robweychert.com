@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, theater, bam rose cinemas, film, nyc, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/hyeb
 ---

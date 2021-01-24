@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: narrative, Netflix, download, iPad, Springdale, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/EQX9P
 ---

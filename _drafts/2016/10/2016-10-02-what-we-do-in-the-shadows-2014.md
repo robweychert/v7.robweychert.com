@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: mockumentary, torrent, download, hdtv, nyc, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/bvYH1
 ---

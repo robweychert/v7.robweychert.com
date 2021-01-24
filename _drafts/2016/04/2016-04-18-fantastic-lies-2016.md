@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: documentary, Netflix, streaming, HDTV, NYC, insomnia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/9q4bb
 ---

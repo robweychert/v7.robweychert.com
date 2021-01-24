@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, hdtv, nyc, robtober, itunes, streaming
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/QtUAP
 ---

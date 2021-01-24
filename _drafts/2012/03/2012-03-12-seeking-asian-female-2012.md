@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: documentary, SXSW, festival, HDCAM, theater, Austin Convention Center, Austin, world premiere, premiere
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/6xgX
 ---

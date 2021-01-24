@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, theater, angelika film center, nyc, film club, robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/QzJV5
 ---

@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, theater, ritz east, philadelphia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/n3jOd
 ---

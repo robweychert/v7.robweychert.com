@@ -7,7 +7,6 @@ rating: 0.1
 tags_letterboxd: narrative, Eventive, streaming, HDTV, Philadelphia, animation, festival, ottawa international animation festival
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1n0Z0B
 ---

@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, Kanopy, streaming, HDTV, NYC, animation
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/uikGd
 ---

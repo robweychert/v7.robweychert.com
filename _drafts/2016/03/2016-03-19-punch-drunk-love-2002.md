@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, theater, BAM Howard Gilman Opera House, live score, NYC, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/92d75
 ---

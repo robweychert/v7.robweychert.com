@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: documentary, theater, alamo drafthouse downtown brooklyn, nyc
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/u77Kz
 ---

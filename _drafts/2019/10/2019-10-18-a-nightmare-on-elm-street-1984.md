@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, torrent, download, HDTV, NYC, robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/QtUep
 ---

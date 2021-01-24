@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: documentary, filmstruck, streaming, hdtv, nyc, leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/d50WV
 ---

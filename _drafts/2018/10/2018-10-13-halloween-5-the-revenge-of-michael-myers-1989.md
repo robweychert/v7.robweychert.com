@@ -7,7 +7,6 @@ rating: 0.3
 tags_letterboxd: narrative, shudder, streaming, hdtv, nyc, robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/xBbj5
 ---

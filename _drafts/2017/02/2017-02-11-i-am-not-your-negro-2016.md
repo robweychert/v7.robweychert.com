@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: documentary, theater, Alamo Drafthouse Downtown Brooklyn, NYC, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/dOBzz
 ---

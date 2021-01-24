@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: documentary, Netflix, streaming, laptop, iPad, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1g8pz
 ---

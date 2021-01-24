@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, theater, ritz 5, philadelphia, leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/4fj77
 ---

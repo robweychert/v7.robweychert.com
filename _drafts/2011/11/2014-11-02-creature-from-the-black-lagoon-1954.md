@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, theater, bam rose cinemas, 3d, nyc, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/4boRB
 ---

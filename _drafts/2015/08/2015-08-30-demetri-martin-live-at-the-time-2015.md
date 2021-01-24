@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: standup comedy, Netflix, streaming, projector, Philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/6MHMd
 ---

@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, theater, alamo south lamar, Austin, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/9x6Oj
 ---

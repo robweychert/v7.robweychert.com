@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, theater, Ritz 5, Philadelphia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/2dVGR
 ---

@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, HBO, streaming, projector, Philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/11O00R
 ---

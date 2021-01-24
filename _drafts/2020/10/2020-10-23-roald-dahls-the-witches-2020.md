@@ -7,7 +7,6 @@ rating: 0.2
 tags_letterboxd: narrative, hbo, streaming, HDTV, philadelphia, leah, robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1qjo7v
 ---

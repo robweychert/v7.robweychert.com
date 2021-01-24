@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, theater, 92Y Tribeca, film, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/msR7
 ---

@@ -7,7 +7,6 @@ rating:
 tags_letterboxd: narrative, amazon, streaming, hdtv, nyc, silent
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/vjuux
 ---

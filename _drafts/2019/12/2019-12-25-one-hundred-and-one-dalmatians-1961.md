@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, disney+, streaming, ipad, philadelphia, leah, animation
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/UJEEp
 ---

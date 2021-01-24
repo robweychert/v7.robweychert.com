@@ -7,7 +7,6 @@ rating: 0.4
 tags_letterboxd: narrative, youtube, download, desktop, nyc, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/tgy7
 ---

@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: projector, Bell House, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/pokHH
 ---

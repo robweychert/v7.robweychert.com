@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: documentary, wttw, streaming, ipad, philadelphia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/lqJXX
 ---

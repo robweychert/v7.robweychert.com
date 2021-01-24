@@ -7,7 +7,6 @@ rating: 0.4
 tags_letterboxd: narrative, amazon, streaming, hdtv, nyc
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/hM3Kb
 ---

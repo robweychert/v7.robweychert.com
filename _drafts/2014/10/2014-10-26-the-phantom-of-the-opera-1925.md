@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, theater, museum of the moving image, silent, nyc, live score, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/48rOp
 ---

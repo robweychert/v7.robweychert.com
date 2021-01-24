@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, disney+, streaming, projector, philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/VoXYv
 ---

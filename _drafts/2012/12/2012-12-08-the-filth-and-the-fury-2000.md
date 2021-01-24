@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: documentary, torrent, download, desktop, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/AGNr
 ---

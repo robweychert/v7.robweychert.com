@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, theater, BAM Rose Cinemas, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/6v2hJ
 ---

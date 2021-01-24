@@ -7,7 +7,6 @@ rating: 0.4
 tags_letterboxd: narrative, Icelandair, plane, seat-back screen
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/3ON1p
 ---

@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: documentary, netflix, streaming, hdtv, nyc, narrative, concert
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/3r7ob
 ---

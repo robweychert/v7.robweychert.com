@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: documentary, hulu, hbo, streaming, hdtv, nyc
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/kwLkB
 ---

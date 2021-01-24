@@ -7,7 +7,6 @@ rating: 0.3
 tags_letterboxd: documentary, narrative, torrent, download, desktop, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/AGMD
 ---

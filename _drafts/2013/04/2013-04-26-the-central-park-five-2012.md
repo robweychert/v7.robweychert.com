@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: documentary, pbs, streaming, desktop, nyc, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/188aX
 ---

@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: standup comedy, Netflix, streaming, HDTV, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/blfW1
 ---

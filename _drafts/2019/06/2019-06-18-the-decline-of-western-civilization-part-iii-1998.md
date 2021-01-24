@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: documentary, criterion channel, streaming, HDTV, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/JUJKb
 ---

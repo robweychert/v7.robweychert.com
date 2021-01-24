@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: documentary, musical, theater, ottawa, ottawa international animation festival, animation, festival, bytowne cinema
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/xBagp
 ---

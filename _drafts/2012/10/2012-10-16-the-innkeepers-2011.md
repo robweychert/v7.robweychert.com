@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: narrative, netflix, streaming, desktop, nyc, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/uPwn
 ---

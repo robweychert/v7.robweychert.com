@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, Kickstarter, download, laptop, Philadelphia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/6lfEr
 ---

@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, theater, quad cinema, NYC, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/xUHiB
 ---

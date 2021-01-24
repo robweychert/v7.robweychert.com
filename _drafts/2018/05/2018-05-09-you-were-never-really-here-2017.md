@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, theater, Nitehawk Cinema, NYC, $5 Film Club
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/rTsnZ
 ---

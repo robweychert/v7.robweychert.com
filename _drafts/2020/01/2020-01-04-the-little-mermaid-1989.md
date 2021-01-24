@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, disney+, streaming, hdtv, nyc
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/VJIW7
 ---

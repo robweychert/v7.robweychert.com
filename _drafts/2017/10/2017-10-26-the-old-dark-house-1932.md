@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, itunes, download, projector, nyc, robtober, Small City
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/lalhL
 ---

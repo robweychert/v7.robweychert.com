@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, theater, Cobble Hill Cinemas, NYC, animation
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/lAlNT
 ---

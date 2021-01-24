@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, criterion channel, streaming, iPad, Yosemite National Park, Leah, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/PXF6r
 ---

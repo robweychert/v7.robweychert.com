@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, theater, bytowne cinema, ottawa, ottawa international animation festival, animation, festival
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/xB9OF
 ---

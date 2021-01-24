@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, Netflix, streaming, projector, HDTV, Philadelphia, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/5LZdf
 ---

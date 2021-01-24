@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: mockumentary, Amazon, streaming, HDTV, NYC, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/gl0Dj
 ---

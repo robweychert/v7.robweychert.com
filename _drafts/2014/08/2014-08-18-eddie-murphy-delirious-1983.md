@@ -7,7 +7,6 @@ rating: 0.4
 tags_letterboxd: standup comedy, Netflix, streaming, iPad, HDTV, Philadelphia, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/3HzvV
 ---

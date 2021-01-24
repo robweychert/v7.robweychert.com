@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, Netflix, streaming, iPad, Brighton
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/tO7S1
 ---

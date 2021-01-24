@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: documentary, theater, Ottawa, ottawa international animation festival, national gallery, animation
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/V6Sgd
 ---

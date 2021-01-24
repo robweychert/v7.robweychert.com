@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: documentary, Netflix, streaming, iPad, Philadelphia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/zagN
 ---

@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, criterion channel, streaming, hdtv, philadelphia, leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1xsieV
 ---

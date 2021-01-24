@@ -7,7 +7,6 @@ rating: 0.4
 tags_letterboxd: narrative, netflix, dvd, crt, philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1AFr
 ---

@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: concert, download, projector, Philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/mRfiN
 ---

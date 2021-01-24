@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, netflix, streaming, desktop, nyc, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1hYDl
 ---

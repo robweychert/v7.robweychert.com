@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, Amazon, streaming, projector, Philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/DCe9j
 ---

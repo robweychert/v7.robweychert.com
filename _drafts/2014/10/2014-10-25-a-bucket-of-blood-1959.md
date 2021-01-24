@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, theater, nitehawk cinema, nyc, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/48rFR
 ---

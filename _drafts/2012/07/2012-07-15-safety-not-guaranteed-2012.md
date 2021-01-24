@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, theater, ritz at the bourse, film, philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/jgzp
 ---

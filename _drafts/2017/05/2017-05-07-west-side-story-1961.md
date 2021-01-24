@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: narrative, musical, iTunes, streaming, HDTV, NYC, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/h4vIJ
 ---

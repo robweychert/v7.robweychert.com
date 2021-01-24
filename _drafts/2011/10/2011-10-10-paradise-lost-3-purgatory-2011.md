@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: documentary, new york film festival, festival, hdcam, theater, lincoln center, nyc, us premiere, premiere, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/6Mnp
 ---

@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, theater, franklin institute tuttleman imax theater, imax, philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/25JEX
 ---

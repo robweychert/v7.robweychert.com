@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: narrative, iTunes, streaming, projector, Philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/7CbXd
 ---

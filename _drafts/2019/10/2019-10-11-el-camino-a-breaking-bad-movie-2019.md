@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, netflix, download, ipad, plane
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/PXG5J
 ---

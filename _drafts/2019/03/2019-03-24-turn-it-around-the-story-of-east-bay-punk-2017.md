@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, kanopy, streaming, hdtv, nyc
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/FOgrh
 ---

@@ -7,7 +7,6 @@ rating: 0.4
 tags_letterboxd: narrative, Netflix, DVD, desktop, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/g4Z5
 ---

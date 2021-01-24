@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, musical, Hulu, streaming, HDTV, philadelphia, leah, Robt
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1rb87H
 ---

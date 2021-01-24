@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, torrent, download, HDTV, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/6TdK1
 ---

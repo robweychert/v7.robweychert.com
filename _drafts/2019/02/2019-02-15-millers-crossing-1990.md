@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, itunes, streaming, hdtv, nyc, leah, personal collection
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/DQHqr
 ---

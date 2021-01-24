@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, criterion channel, streaming, hdtv, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/M1JW9
 ---

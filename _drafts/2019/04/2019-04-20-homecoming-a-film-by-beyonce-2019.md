@@ -7,7 +7,6 @@ rating: 0.9
 tags_letterboxd: concert, netflix, streaming, ipad, philadelphia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/H1O6d
 ---

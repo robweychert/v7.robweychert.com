@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, theater, alamo drafthouse downtown brooklyn, NYC, dismember the alamo, robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/y8qxd
 ---

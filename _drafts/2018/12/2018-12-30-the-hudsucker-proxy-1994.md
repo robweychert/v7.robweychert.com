@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, iTunes, streaming, HDTV, Stockbridge, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/AUKOn
 ---

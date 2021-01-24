@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, Funny or Die, streaming, HDTV, NYC, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/8zs51
 ---

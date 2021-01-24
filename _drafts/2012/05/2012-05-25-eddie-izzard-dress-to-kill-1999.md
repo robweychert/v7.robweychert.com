@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: Netflix, streaming, HDTV, NYC, standup comedy
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/earp
 ---

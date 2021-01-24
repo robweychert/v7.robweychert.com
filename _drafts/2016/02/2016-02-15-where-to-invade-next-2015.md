@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: documentary, theater, nyc, nitehawk cinema
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/8Eu95
 ---

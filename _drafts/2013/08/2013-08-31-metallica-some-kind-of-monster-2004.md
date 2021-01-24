@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: documentary, Netflix, DVD, desktop, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1GVyR
 ---

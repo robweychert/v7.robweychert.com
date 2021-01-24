@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, amazon, streaming, hdtv, nyc, leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/WySVZ
 ---

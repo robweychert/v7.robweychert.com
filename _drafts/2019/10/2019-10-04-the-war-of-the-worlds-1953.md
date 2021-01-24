@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, criterion channel, download, iPad, plane, robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/PXEIf
 ---

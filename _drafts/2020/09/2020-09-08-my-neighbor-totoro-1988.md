@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, HBO, streaming, HDTV, Philadelphia, animation
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1lvx9p
 ---

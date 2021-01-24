@@ -7,7 +7,6 @@ rating: 0.4
 tags_letterboxd: narrative, torrent, download, projector, Philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/7Wxvv
 ---

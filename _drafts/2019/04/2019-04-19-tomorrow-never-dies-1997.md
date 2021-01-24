@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, Netflix, download, iPad, bus, Philadelphia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/H168J
 ---

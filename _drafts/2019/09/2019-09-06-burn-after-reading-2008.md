@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, netflix, streaming, download, ipad, HDTV, plane, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/O4ron
 ---

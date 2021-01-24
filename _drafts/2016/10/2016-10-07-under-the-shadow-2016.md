@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, theater, ifc center, nyc, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/bBvhP
 ---

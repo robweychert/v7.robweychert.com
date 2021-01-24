@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, Netflix, streaming, iPad, Martha’s Vineyard
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1kKSH
 ---

@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: narrative, theater, museum of modern art, silent, nyc, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/48rMj
 ---

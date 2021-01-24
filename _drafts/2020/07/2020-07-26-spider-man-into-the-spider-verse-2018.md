@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, Netflix, streaming, HDTV, Philadelphia, Leah, animation
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1gSi2p
 ---

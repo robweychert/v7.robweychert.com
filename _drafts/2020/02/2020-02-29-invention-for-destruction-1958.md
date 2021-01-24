@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: narrative, criterion channel, download, iPad, bus, philadelphia, animation
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/10ZgTV
 ---

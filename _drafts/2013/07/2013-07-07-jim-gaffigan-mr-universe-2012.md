@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: standup comedy, netflix, streaming, desktop, nyc, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1JmiF
 ---

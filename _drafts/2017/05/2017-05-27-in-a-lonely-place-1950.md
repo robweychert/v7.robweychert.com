@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, filmstruck, streaming, hdtv, nyc
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/hvAkB
 ---

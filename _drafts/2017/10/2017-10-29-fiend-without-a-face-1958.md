@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, FilmStruck, streaming, HDTV, NYC, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/ljC9d
 ---

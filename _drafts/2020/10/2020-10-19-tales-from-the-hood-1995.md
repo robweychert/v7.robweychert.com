@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, itunes, streaming, hdtv, philadelphia, robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1qjg6p
 ---

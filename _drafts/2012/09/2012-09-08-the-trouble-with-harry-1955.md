@@ -7,7 +7,6 @@ rating: 0.3
 tags_letterboxd: narrative, personal collection, dvd, desktop, nyc, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/qkdV
 ---

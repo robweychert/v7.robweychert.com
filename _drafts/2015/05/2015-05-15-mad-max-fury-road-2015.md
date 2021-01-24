@@ -7,7 +7,6 @@ rating: 0.9
 tags_letterboxd: narrative, theater, AMC Empire 25, 3D, IMAX, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/5QRfn
 ---

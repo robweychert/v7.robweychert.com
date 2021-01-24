@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, netflix, dvd, projector, philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/aslL
 ---

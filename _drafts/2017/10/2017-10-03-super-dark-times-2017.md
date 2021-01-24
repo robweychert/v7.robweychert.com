@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, theater, village east cinema, nyc, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/kzLz3
 ---

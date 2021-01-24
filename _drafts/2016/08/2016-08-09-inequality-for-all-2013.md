@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: documentary, vimeo, streaming, hdtv, nyc
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/aNI8h
 ---

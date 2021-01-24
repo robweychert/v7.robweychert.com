@@ -7,7 +7,6 @@ rating: 0.4
 tags_letterboxd: documentary, netflix, streaming, desktop, nyc, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/f15L
 ---

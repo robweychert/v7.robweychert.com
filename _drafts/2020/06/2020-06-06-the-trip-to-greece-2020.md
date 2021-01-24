@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, Amazon, streaming, laptop, Philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1bOGt7
 ---

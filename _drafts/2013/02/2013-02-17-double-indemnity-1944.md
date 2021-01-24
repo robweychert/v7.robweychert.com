@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: narrative, Netflix, streaming, desktop, iPad, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/Rqtp
 ---

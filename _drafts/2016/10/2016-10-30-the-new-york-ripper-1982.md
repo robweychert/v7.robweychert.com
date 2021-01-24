@@ -7,7 +7,6 @@ rating: 0.4
 tags_letterboxd: narrative, theater, anthology film archives, nyc, leah, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/c2mg3
 ---

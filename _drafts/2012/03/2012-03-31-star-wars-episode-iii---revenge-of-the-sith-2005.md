@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, Netflix, DVD, CRT, Philadelphia
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/8qX5
 ---

@@ -7,7 +7,6 @@ rating: 0.9
 tags_letterboxd: narrative, theater, angelika film center, nyc, film club
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/ZkLA5
 ---

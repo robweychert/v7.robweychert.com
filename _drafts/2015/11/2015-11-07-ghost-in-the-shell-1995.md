@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, hulu, streaming, hdtv, nyc, animation
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/7skKR
 ---

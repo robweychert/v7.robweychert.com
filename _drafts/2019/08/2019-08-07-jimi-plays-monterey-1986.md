@@ -7,7 +7,6 @@ rating: 0.9
 tags_letterboxd: documentary, concert, criterion channel, streaming, HDTV, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/Mti4Z
 ---

@@ -7,7 +7,6 @@ rating:
 tags_letterboxd: narrative, Netflix, streaming, HDTV, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/5tDUP
 ---

@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, netflix, dvd, crt, philadelphia, leah, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/iJX
 ---

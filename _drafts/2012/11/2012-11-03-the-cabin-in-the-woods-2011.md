@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, netflix, dvd, projector, philadelphia, 12 hours of horror, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/wZO1
 ---

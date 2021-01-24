@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, Netflix, streaming, iPad, Springdale, Philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/F1s13
 ---

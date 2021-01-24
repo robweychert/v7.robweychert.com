@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: standup comedy, Netflix, streaming, iPad, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/l8SX7
 ---

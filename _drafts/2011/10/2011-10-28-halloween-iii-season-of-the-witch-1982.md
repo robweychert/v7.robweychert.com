@@ -7,7 +7,6 @@ rating: 0.1
 tags_letterboxd: narrative, netflix, dvd, desktop, nyc, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/epT
 ---

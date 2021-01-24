@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: narrative, criterion channel, projector, philadelphia, leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/KO6L7
 ---

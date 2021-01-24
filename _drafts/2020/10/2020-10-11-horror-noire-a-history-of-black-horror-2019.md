@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: documentary, shudder, streaming, HDTV, Philadelphia, Leah, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1pxmcx
 ---

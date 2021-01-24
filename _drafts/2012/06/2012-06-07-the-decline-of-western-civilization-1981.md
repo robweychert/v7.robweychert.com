@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: documentary, YouTube, download, desktop, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/fh0R
 ---

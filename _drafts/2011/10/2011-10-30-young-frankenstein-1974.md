@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, personal collection, dvd, crt, philadelphia, leah, Robtober
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/iJN
 ---

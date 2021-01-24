@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: narrative, film, theater, cobble hill cinemas, nyc, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1fd7
 ---

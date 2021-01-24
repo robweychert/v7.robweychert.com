@@ -7,7 +7,6 @@ rating: 0.4
 tags_letterboxd: narrative, theater, AMC Dine-In Theaters Block 37, Chicago
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/swthh
 ---

@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, netflix, dvd, crt, philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/z39v
 ---

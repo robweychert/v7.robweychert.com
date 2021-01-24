@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: narrative, iTunes, streaming, HDTV, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/f7pGb
 ---

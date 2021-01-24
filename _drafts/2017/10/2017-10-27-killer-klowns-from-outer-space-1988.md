@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, itunes, download, projector, nyc, robtober, Fictive Kin
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/lfPA9
 ---

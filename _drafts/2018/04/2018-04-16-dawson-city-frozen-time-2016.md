@@ -7,7 +7,6 @@ rating: 0.7
 tags_letterboxd: documentary, theater, IFC Center, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/res0p
 ---

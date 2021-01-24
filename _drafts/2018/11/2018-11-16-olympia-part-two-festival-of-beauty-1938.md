@@ -7,7 +7,6 @@ rating: 0.8
 tags_letterboxd: documentary, streaming, filmstruck, iPad, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/yUflB
 ---

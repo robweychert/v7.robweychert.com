@@ -7,7 +7,6 @@ rating: 0.3
 tags_letterboxd: documentary, amazon, streaming, HDTV, NYC
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/D41Jv
 ---

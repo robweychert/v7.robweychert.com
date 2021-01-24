@@ -8,7 +8,6 @@ rewatch: true
 tags_letterboxd: narrative, netflix, streaming, ipad, philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1AT9
 ---

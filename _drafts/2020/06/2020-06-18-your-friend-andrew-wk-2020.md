@@ -7,7 +7,6 @@ rating: 0.6
 tags_letterboxd: documentary, YouTube, streaming, HDTV, Philadelphia, Leah
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/1cU9WB
 ---

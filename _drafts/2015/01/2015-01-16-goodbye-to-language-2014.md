@@ -7,7 +7,6 @@ rating: 0.2
 tags_letterboxd: narrative, theater, bam harvey theater, nyc, 3D
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/4RoS9
 ---

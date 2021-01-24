@@ -7,7 +7,6 @@ rating: 0.5
 tags_letterboxd: narrative, theater, bam rose cinemas, nyc
 tags:
   - film
-  - review
 category: Letterboxd
 canonical: https://boxd.it/vpVjX
 ---
