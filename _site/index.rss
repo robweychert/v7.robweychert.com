@@ -3,10 +3,52 @@
 <channel>
 	<title>RobWeychert.com V7</title>
 	<description>A work in progress</description>
-	<link>http://localhost:4000</link>
+	<link>https://v7.robweychert.com</link>
 	<language>en</language>
-	<lastBuildDate>Sat, 23 Jan 2021 23:46:09 -0500</lastBuildDate>
-	<pubDate>Sat, 05 Dec 2020 23:00:00 -0500</pubDate>
+	<lastBuildDate>Sun, 24 Jan 2021 17:38:21 -0500</lastBuildDate>
+	<pubDate>Sun, 24 Jan 2021 16:45:00 -0500</pubDate>
+	
+	<item>
+		<title>Beginning data migration</title>
+		<description><![CDATA[
+			<p><em>Prepping hundreds of tiny blog posts for republishing</em></p>
+			
+			<p>Apropos of nothing, I decided that the first of the old entries I’d bring over to V7 would be granular ones:</p>
+
+<ul>
+  <li><strong>Daily Haiku:</strong> A section of the <a href="https://v4.robweychert.com/">fourth version</a> of my site, beginning back in 2005. As the name suggests, I wrote a haiku every weekday based on the <a href="https://www.dictionary.com/e/word-of-the-day/">Dictionary.com Word of the Day</a>. Each haiku was originally its own entry, but when I brought them over to V6 a few years ago, I consolidated them into <a href="https://v6.robweychert.com/blog/topic/daily-haiku/">monthly digests</a>. I’m breaking them back out into individual entries for V7. There are 238 total.</li>
+  <li><strong>Letterboxd film diary:</strong> I’ve been using <a href="https://letterboxd.com/">Letterboxd</a> for nearly 10 years to log every single movie I watch. Some of the reviews I’ve written have appeared on previous versions of my site, but I’m bringing the entire diary over to V7, including tiny entries that merely consist of the name of the movie and a star rating (which is most of them). There are currently 1,348 Letterboxd entries.</li>
+</ul>
+
+<p>Daily Haiku hearkens back to the days my site ran on <a href="https://en.wikipedia.org/wiki/Movable_Type">Movable Type</a>, but the CMS and database are long gone. All that remains is the static site they generated, which means there’s no especially good way to export the site’s content in another format. I did a little bit of research on web scrapers, which would surely be up to the task, but before I got too far down that path, I decided instead to just spend a few hours clicking through the entries and manually copying and pasting them into Markdown files (which is the format Jekyll and other static site generators typically use for blog posts). There can be a certain zen to data entry once you hit a good rhythm, and the absorbing mindlessness of the work was a welcome reprieve from the feverish news cycle of the past few weeks.</p>
+
+<p>As for Letterboxd, with nearly six times more entries than Daily Haiku, copying and pasting was a non-starter. But luckily Letterboxd’s data export is outstanding, and it only took a minute for me to get all my data formatted into a handful of tidy CSV files. I opened the diary file in Google Sheets, deleted the columns I didn’t need, renamed the headers and rearranged the columns for my purposes, and exported an updated CSV. From there, I made a few modifications to <a href="https://www.evanlovely.com/utilities/jekyll/spreadsheet-to-markdown/">a handy Python script</a> by Evan Lovely that takes a CSV file and turns each of its rows into a Markdown file with YAML front matter. Running the script gave me the 1,348 Markdown files I needed, and after some batch find/replace cleanup (e.g. removing non-ASCII characters from filenames, putting quotes around title strings, etc.), they were done! Here’s an example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: post 
+date: 2020-02-13 23:59:00
+title: "Portrait of a Lady on Fire"
+year: 2019
+rating: 0.9
+tags_letterboxd: narrative, theater, angelika film center, nyc, film club
+tags: film
+category: Letterboxd
+canonical: https://boxd.it/ZkLA5
+---
+
+This movie is so goddamned good, I’m not even mad that it neglects to incorporate Van Halen’s “On Fire.”
+</code></pre></div></div>
+
+<p>Neither the Daily Haiku nor the Letterboxd posts appear on V7 yet, but once I have some template architecture set up to support them, they should be ready to go.</p>
+
+<p>Wrangling my Letterboxd data was easier than I expected, which is encouraging. I should be able to take a similar approach with my Twitter data, which is by far the largest single data source I’ll be dealing with (6,000+ entries). But that data is also more complex, and my batch find/replace tricks will probably only get me so far. It may be time for me to start properly learning <a href="https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285">regular expressions</a>.</p>
+
+			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Beginning data migration">Reply by email</a></p>
+		]]></description>
+		<link>https://v7.robweychert.com/blog/2021/01/v7-beginning-data-migration/</link>
+		<guid>https://v7.robweychert.com/blog/2021/01/v7-beginning-data-migration/</guid>
+		<pubDate>Sun, 24 Jan 2021 16:45:00 -0500</pubDate>
+	</item>
 	
 	<item>
 		<title>Choosing a CMS</title>
@@ -23,8 +65,8 @@
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Choosing a CMS">Reply by email</a></p>
 		]]></description>
-		<link>http://localhost:4000/blog/2020/12/v7-choosing-a-cms/</link>
-		<guid>http://localhost:4000/blog/2020/12/v7-choosing-a-cms/</guid>
+		<link>https://v7.robweychert.com/blog/2020/12/v7-choosing-a-cms/</link>
+		<guid>https://v7.robweychert.com/blog/2020/12/v7-choosing-a-cms/</guid>
 		<pubDate>Sat, 05 Dec 2020 23:00:00 -0500</pubDate>
 	</item>
 	
@@ -81,8 +123,8 @@
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: On dependency">Reply by email</a></p>
 		]]></description>
-		<link>http://localhost:4000/blog/2020/06/v7-on-dependency/</link>
-		<guid>http://localhost:4000/blog/2020/06/v7-on-dependency/</guid>
+		<link>https://v7.robweychert.com/blog/2020/06/v7-on-dependency/</link>
+		<guid>https://v7.robweychert.com/blog/2020/06/v7-on-dependency/</guid>
 		<pubDate>Wed, 24 Jun 2020 12:45:00 -0400</pubDate>
 	</item>
 	
@@ -195,8 +237,8 @@
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: The timeline is taking shape">Reply by email</a></p>
 		]]></description>
-		<link>http://localhost:4000/blog/2020/03/v7-timeline-taking-shape/</link>
-		<guid>http://localhost:4000/blog/2020/03/v7-timeline-taking-shape/</guid>
+		<link>https://v7.robweychert.com/blog/2020/03/v7-timeline-taking-shape/</link>
+		<guid>https://v7.robweychert.com/blog/2020/03/v7-timeline-taking-shape/</guid>
 		<pubDate>Tue, 03 Mar 2020 08:10:00 -0500</pubDate>
 	</item>
 	
@@ -472,8 +514,8 @@
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Timeline section inventory">Reply by email</a></p>
 		]]></description>
-		<link>http://localhost:4000/blog/2020/02/v7-timeline-section-inventory/</link>
-		<guid>http://localhost:4000/blog/2020/02/v7-timeline-section-inventory/</guid>
+		<link>https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/</link>
+		<guid>https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/</guid>
 		<pubDate>Sun, 09 Feb 2020 11:27:00 -0500</pubDate>
 	</item>
 	
@@ -525,8 +567,8 @@
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Structural challenges">Reply by email</a></p>
 		]]></description>
-		<link>http://localhost:4000/blog/2020/01/v7-structural-challenges/</link>
-		<guid>http://localhost:4000/blog/2020/01/v7-structural-challenges/</guid>
+		<link>https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/</link>
+		<guid>https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/</guid>
 		<pubDate>Tue, 14 Jan 2020 09:50:00 -0500</pubDate>
 	</item>
 	
@@ -568,8 +610,8 @@
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Content priorities">Reply by email</a></p>
 		]]></description>
-		<link>http://localhost:4000/blog/2020/01/v7-content-priorities/</link>
-		<guid>http://localhost:4000/blog/2020/01/v7-content-priorities/</guid>
+		<link>https://v7.robweychert.com/blog/2020/01/v7-content-priorities/</link>
+		<guid>https://v7.robweychert.com/blog/2020/01/v7-content-priorities/</guid>
 		<pubDate>Wed, 08 Jan 2020 08:50:00 -0500</pubDate>
 	</item>
 	
@@ -657,8 +699,8 @@
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: The “viewport” meta tag">Reply by email</a></p>
 		]]></description>
-		<link>http://localhost:4000/blog/2020/01/v7-viewport-meta-tag/</link>
-		<guid>http://localhost:4000/blog/2020/01/v7-viewport-meta-tag/</guid>
+		<link>https://v7.robweychert.com/blog/2020/01/v7-viewport-meta-tag/</link>
+		<guid>https://v7.robweychert.com/blog/2020/01/v7-viewport-meta-tag/</guid>
 		<pubDate>Sat, 04 Jan 2020 17:00:00 -0500</pubDate>
 	</item>
 	
@@ -682,8 +724,8 @@
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Introduction">Reply by email</a></p>
 		]]></description>
-		<link>http://localhost:4000/blog/2020/01/v7-introduction/</link>
-		<guid>http://localhost:4000/blog/2020/01/v7-introduction/</guid>
+		<link>https://v7.robweychert.com/blog/2020/01/v7-introduction/</link>
+		<guid>https://v7.robweychert.com/blog/2020/01/v7-introduction/</guid>
 		<pubDate>Wed, 01 Jan 2020 15:00:00 -0500</pubDate>
 	</item>
 	
