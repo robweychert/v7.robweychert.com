@@ -3,9 +3,9 @@
 <channel>
 	<title>RobWeychert.com V7</title>
 	<description>A work in progress</description>
-	<link>https://v7.robweychert.com</link>
+	<link>http://localhost:4000</link>
 	<language>en</language>
-	<lastBuildDate>Sun, 24 Jan 2021 17:38:21 -0500</lastBuildDate>
+	<lastBuildDate>Sun, 11 Jul 2021 10:01:44 -0400</lastBuildDate>
 	<pubDate>Sun, 24 Jan 2021 16:45:00 -0500</pubDate>
 	
 	<item>
@@ -45,8 +45,8 @@ This movie is so goddamned good, I’m not even mad that it neglects to incorpor
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Beginning data migration">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2021/01/v7-beginning-data-migration/</link>
-		<guid>https://v7.robweychert.com/blog/2021/01/v7-beginning-data-migration/</guid>
+		<link>http://localhost:4000/blog/2021/01/v7-beginning-data-migration/</link>
+		<guid>http://localhost:4000/blog/2021/01/v7-beginning-data-migration/</guid>
 		<pubDate>Sun, 24 Jan 2021 16:45:00 -0500</pubDate>
 	</item>
 	
@@ -65,8 +65,8 @@ This movie is so goddamned good, I’m not even mad that it neglects to incorpor
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Choosing a CMS">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/12/v7-choosing-a-cms/</link>
-		<guid>https://v7.robweychert.com/blog/2020/12/v7-choosing-a-cms/</guid>
+		<link>http://localhost:4000/blog/2020/12/v7-choosing-a-cms/</link>
+		<guid>http://localhost:4000/blog/2020/12/v7-choosing-a-cms/</guid>
 		<pubDate>Sat, 05 Dec 2020 23:00:00 -0500</pubDate>
 	</item>
 	
@@ -123,8 +123,8 @@ This movie is so goddamned good, I’m not even mad that it neglects to incorpor
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: On dependency">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/06/v7-on-dependency/</link>
-		<guid>https://v7.robweychert.com/blog/2020/06/v7-on-dependency/</guid>
+		<link>http://localhost:4000/blog/2020/06/v7-on-dependency/</link>
+		<guid>http://localhost:4000/blog/2020/06/v7-on-dependency/</guid>
 		<pubDate>Wed, 24 Jun 2020 12:45:00 -0400</pubDate>
 	</item>
 	
@@ -237,8 +237,8 @@ This movie is so goddamned good, I’m not even mad that it neglects to incorpor
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: The timeline is taking shape">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/03/v7-timeline-taking-shape/</link>
-		<guid>https://v7.robweychert.com/blog/2020/03/v7-timeline-taking-shape/</guid>
+		<link>http://localhost:4000/blog/2020/03/v7-timeline-taking-shape/</link>
+		<guid>http://localhost:4000/blog/2020/03/v7-timeline-taking-shape/</guid>
 		<pubDate>Tue, 03 Mar 2020 08:10:00 -0500</pubDate>
 	</item>
 	
@@ -514,8 +514,8 @@ This movie is so goddamned good, I’m not even mad that it neglects to incorpor
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Timeline section inventory">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/</link>
-		<guid>https://v7.robweychert.com/blog/2020/02/v7-timeline-section-inventory/</guid>
+		<link>http://localhost:4000/blog/2020/02/v7-timeline-section-inventory/</link>
+		<guid>http://localhost:4000/blog/2020/02/v7-timeline-section-inventory/</guid>
 		<pubDate>Sun, 09 Feb 2020 11:27:00 -0500</pubDate>
 	</item>
 	
@@ -567,8 +567,8 @@ This movie is so goddamned good, I’m not even mad that it neglects to incorpor
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Structural challenges">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/</link>
-		<guid>https://v7.robweychert.com/blog/2020/01/v7-structural-challenges/</guid>
+		<link>http://localhost:4000/blog/2020/01/v7-structural-challenges/</link>
+		<guid>http://localhost:4000/blog/2020/01/v7-structural-challenges/</guid>
 		<pubDate>Tue, 14 Jan 2020 09:50:00 -0500</pubDate>
 	</item>
 	
@@ -610,8 +610,8 @@ This movie is so goddamned good, I’m not even mad that it neglects to incorpor
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Content priorities">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/01/v7-content-priorities/</link>
-		<guid>https://v7.robweychert.com/blog/2020/01/v7-content-priorities/</guid>
+		<link>http://localhost:4000/blog/2020/01/v7-content-priorities/</link>
+		<guid>http://localhost:4000/blog/2020/01/v7-content-priorities/</guid>
 		<pubDate>Wed, 08 Jan 2020 08:50:00 -0500</pubDate>
 	</item>
 	
@@ -699,8 +699,8 @@ This movie is so goddamned good, I’m not even mad that it neglects to incorpor
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: The “viewport” meta tag">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/01/v7-viewport-meta-tag/</link>
-		<guid>https://v7.robweychert.com/blog/2020/01/v7-viewport-meta-tag/</guid>
+		<link>http://localhost:4000/blog/2020/01/v7-viewport-meta-tag/</link>
+		<guid>http://localhost:4000/blog/2020/01/v7-viewport-meta-tag/</guid>
 		<pubDate>Sat, 04 Jan 2020 17:00:00 -0500</pubDate>
 	</item>
 	
@@ -724,8 +724,8 @@ This movie is so goddamned good, I’m not even mad that it neglects to incorpor
 
 			<hr><p><a href="mailto:rob@robweychert.com?subject=Reply: Introduction">Reply by email</a></p>
 		]]></description>
-		<link>https://v7.robweychert.com/blog/2020/01/v7-introduction/</link>
-		<guid>https://v7.robweychert.com/blog/2020/01/v7-introduction/</guid>
+		<link>http://localhost:4000/blog/2020/01/v7-introduction/</link>
+		<guid>http://localhost:4000/blog/2020/01/v7-introduction/</guid>
 		<pubDate>Wed, 01 Jan 2020 15:00:00 -0500</pubDate>
 	</item>
 	
